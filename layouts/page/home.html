@@ -1,0 +1,276 @@
+{{ define "main" }}
+
+<style>
+.vertical-text {
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+}
+#capabilities-slider-images-iw {
+    margin-left: 0px !important;
+}
+.pop-shadow {
+    transform: translate(-1%,-1%);
+    transition: 1s;
+}
+.tns-ovh {
+    margin-left: -30px;
+}
+#structures {
+  background-image: url("/pageimg/hero-back.PNG")
+}
+#amenities {
+  background-image: url("/pageimg/hero-back.PNG")
+}
+.structure-outer-box:hover > img {
+    opacity: .5;
+}
+.structure-outer-box:hover > .structure-inner-box {
+    background-color: #0D443A !important;
+    color: #fff !important;
+}
+@media screen and (min-width:992px) {
+.tns-ovh {
+    margin-left: 0px;
+}
+}
+</style>
+
+<section id="capabilities" class="flex flex-wrap bg-color-F0F0F0 pt-24">
+
+<div class="w-1/6 lg:w-1/4">
+    <h2 class="font-titling text-3xl lg:text-5xl text-color-333333 font-bold mx-auto uppercase vertical-text">Capabilities</h2>
+</div>
+
+<div id="capabilities-slider" class="flex flex-wrap w-5/6 lg:w-3/4 mx-auto px-3 lg:px-0 capabilities-slider">
+    <div class="flex flex-wrap lg:w-5/12 mr-auto">
+    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest">Excellence and expertise</h6>
+    <h2 class="w-full font-titling text-3xl lg:text-5xl xxl:text-6xl font-bold leading-none py-4">Executing Experience</h2>
+    <p class="w-full font-ibm text-base leading-normal pb-4">Ranco Response combines the strengths, skills, and expertise of more than 35 years of proven field logistics successfully executing both planned and unplanned events.Whether it is supporting first responders in the wake of a disaster or enhancing the training of the military or ensuring safe, clean facilities for special events, Ranco Response has been there.</p>
+    </div>
+    <ul class="hidden lg:flex flex-wrap w-full controls" id="capabilities-slider-controls">
+        <div class="w-auto">
+            <i class="text-color-11594C hover:text-color-0D443A text-4xl opacity-25 px-2 fas fa-caret-left capa-arrow-left"></i>
+        </div>
+        <div class="w-auto">
+            <i class="text-color-11594C hover:text-color-0D443A text-4xl px-2 fas fa-caret-right capa-arrow-right"></i>
+        </div>
+    </ul>
+    <div id="capabilities-slider-images" class="flex flex-wrap">
+    <div class="flex flex-wrap pb-8 pop-shadow capabilities-outer-box-0">
+        <div class="flex flex-wrap w-full bg-white border-color-F0F0F0 border-r-32">
+            <div class="flex flex-wrap shadow-lg capabilities-inner-box-0">
+                <img class="w-full h-56" src="https://picsum.photos/500/250">
+                <div class="pt-6 pb-8 px-8">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                    <p class="font-ibm text-base leading-normal py-3">In an emergency response scenario, time is of the essence with the safety of responders and the impacted population hinging on mission critical resources.</p>
+                    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href="{{ .Params.hero_button_link }}">
+                        <span class="font-titling text-2xs text-white tracking-widest uppercase">Learn More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap pb-8 capabilities-outer-box-1">
+        <div class="flex flex-wrap w-full bg-white border-color-F0F0F0 border-r-32">
+            <div class="flex flex-wrap capabilities-inner-box-1">
+                <img class="w-full h-56" src="https://picsum.photos/500/250">
+                <div class="pt-6 pb-8 px-8">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                    <p class="font-ibm text-base leading-normal py-3">In an emergency response scenario, time is of the essence with the safety of responders and the impacted population hinging on mission critical resources.</p>
+                    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href="{{ .Params.hero_button_link }}">
+                        <span class="font-titling text-2xs text-white tracking-widest uppercase">Learn More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap pb-8 capabilities-outer-box-2">
+        <div class="flex flex-wrap w-full bg-white border-color-F0F0F0 border-r-32">
+            <div class="flex flex-wrap capabilities-inner-box-2">
+                <img class="w-full h-56" src="https://picsum.photos/500/250">
+                <div class="pt-6 pb-8 px-8">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                    <p class="font-ibm text-base leading-normal py-3">In an emergency response scenario, time is of the essence with the safety of responders and the impacted population hinging on mission critical resources.</p>
+                    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href="{{ .Params.hero_button_link }}">
+                        <span class="font-titling text-2xs text-white tracking-widest uppercase">Learn More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap pb-8 capabilities-outer-box-3">
+        <div class="flex flex-wrap w-full bg-white border-color-F0F0F0 border-r-32">
+            <div class="flex flex-wrap capabilities-inner-box-3">
+                <img class="w-full h-56" src="https://picsum.photos/500/250">
+                <div class="pt-6 pb-8 px-8">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                    <p class="font-ibm text-base leading-normal py-3">In an emergency response scenario, time is of the essence with the safety of responders and the impacted population hinging on mission critical resources.</p>
+                    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href="{{ .Params.hero_button_link }}">
+                        <span class="font-titling text-2xs text-white tracking-widest uppercase">Learn More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+</section>
+
+<section id="structures" class="flex flex-wrap pt-24">
+
+<div class="w-1/6 lg:w-1/4">
+    <h2 class="font-titling text-3xl lg:text-5xl text-white font-bold mx-auto uppercase vertical-text">Structures</h2>
+</div>
+
+<div class="flex flex-wrap w-5/6 lg:w-3/4 mx-auto px-3 lg:px-0">
+    <div class="flex flex-wrap lg:w-1/2 mr-auto">
+    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest">Proactive Planning</h6>
+    <h2 class="w-full font-titling text-3xl lg:text-5xl xxl:text-6xl font-bold text-white leading-none py-4">Everything under one roof</h2>
+    <p class="w-full font-ibm text-xl text-white leading-normal pb-4">Our organic inventory is capable of supporting up to 5,000 persons and is regularly maintained through our planned and documented maintenance system.</p>
+    </div>
+    <div class="flex flex-wrap w-full max-w-4xl pt-5 pb-24 -ml-6 lg:-ml-0 lg:pl-6">
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+</section>
+
+<section id="amenities" class="flex flex-wrap pt-24">
+
+<div class="flex flex-wrap w-5/6 lg:w-8/12 ml-auto px-3 lg:px-0">
+    <div class="flex flex-wrap lg:w-1/2 mr-auto -ml-6 md:-ml-0 lg:pl-6 pr-6 lg:pr-0">
+    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest">Proactive Planning</h6>
+    <h2 class="w-full font-titling text-3xl lg:text-5xl xxl:text-6xl font-bold text-white leading-none py-4">Everything under one roof</h2>
+    <p class="w-full font-ibm text-xl text-white leading-normal pb-4">Our organic inventory is capable of supporting up to 5,000 persons and is regularly maintained through our planned and documented maintenance system.</p>
+    </div>
+    <div class="flex flex-wrap w-full max-w-4xl pt-5 pb-24">
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+        <a class="w-full md:w-1/2 lg:w-1/3 hover:cursor-pointer">
+            <div class="md:pr-5 pb-8 structure-outer-box">
+                <img class="w-full h-40" src="https://picsum.photos/500/250">
+                <div class="bg-white pt-6 pb-8 px-8 structure-inner-box">
+                    <h4 class="font-titling text-2xl leading-none">Emergency Reponse</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="w-1/6 lg:w-1/4 -ml-8 md:-ml-0">
+    <h2 class="font-titling text-3xl lg:text-5xl text-white font-bold mx-auto uppercase vertical-text">AMENITIES</h2>
+</div>
+
+</section>
+
+{{ end }}

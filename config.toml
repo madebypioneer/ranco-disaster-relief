@@ -1,0 +1,138 @@
+baseURL = "https://gz-default.netlify.com/"
+languageCode = "en-us"
+theme = "site-theme"
+title = "Example"
+enableRobotsTXT = true
+
+[params.meta]
+description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
+
+[[menu.desktop]]
+    identifier = "emergency-response"
+    name = "Emergency Response"
+    url = "/"
+    weight = 1
+[[menu.desktop]]
+    identifier = "logisitcs-support"
+    name = "Logisitcs Support"
+    url = "/"
+    weight = 2
+[[menu.desktop]]
+    identifier = "event-support"
+    name = "Event Support"
+    url = "/"
+    weight = 3
+[[menu.desktop]]
+    identifier = "structures"
+    name = "Structures"
+    url = "/"
+    weight = 4
+[[menu.desktop]]
+    identifier = "amenities"
+    name = "Amenities"
+    url = "/"
+    weight = 5
+[[menu.desktop]]
+    identifier = "about-us"
+    name = "About Us"
+    url = "/"
+    weight = 6
+[[menu.desktop]]
+    identifier = "contact-us"
+    name = "Contact Us"
+    url = "/"
+    weight = 7
+[[menu.mobile]]
+    identifier = "menu-mobile-1"
+    name = "Menu Item 1"
+    url = "/page-1"
+    weight = 1
+        [[menu.mobile]]
+            identifier = "menu-child-1"
+            name = "Menu Child 1"
+            url = "/page-11/"
+            weight = 1
+            parent = "menu-mobile-1"
+[[menu.mobile]]
+    identifier = "menu-mobile-2"
+    name = "Menu Item 2"
+    url = "/page-2"
+    weight = 2
+[[menu.mobile]]
+    identifier = "menu-mobile-3"
+    name = "Menu Item 3"
+    url = "/page-3"
+    weight = 3
+[params.contactNumbers]
+    Fax = "555.555.5555"
+    Phone = "555.555.5555"
+[params.Logos]
+    darkLogo = "/pageimg/RR.Horizontal.White.svg"
+    logo = "/pageimg/RR.Horizontal.White.svg"
+    mobileLogo = "/pageimg/RR.Horizontal.White.svg"
+[params.utilityImages]
+    thankyouBackground = "/pageimg/thank-you-contact.jpg"
+[params.address]
+    city = "Statesboro"
+    state = "GA"
+    street = "P.O. Box 134"
+    zip = 30459
+[params.email]
+    email = "example@example.com"
+[params.tracking]
+    googleAnalytics = ""
+    cloudinaryUrl = ""
+[params.socialLinks]
+    facebook = ""
+    insta = ""
+    linkedin = ""
+    pinterest = ""
+[params.publishingSettings]
+    siteinProduction = false
+
+[mediaTypes]
+  [mediaTypes."text/noExt"]
+    suffixes = ""
+
+[sitemap]
+    filename = "sitepages.xml"
+
+[outputFormats]
+    [outputFormats.sitemapindex]
+        baseName = "sitemapindex"
+        isPlainText = false
+        mediaType = "application/xml"
+        path = "/"
+    [outputFormats.sitepages]
+        baseName = "sitepages"
+        isPlainText = false
+        mediaType = "application/xml"
+        path = "/"
+    [outputFormats.siteposts]
+        baseName = "siteposts"
+        isPlainText = false
+        mediaType = "application/xml"
+        path = "/"
+    [outputFormats.redirects]
+        baseName = "_redirects"
+        isPlainText = true
+        mediaType = "text/noExt"
+        path = "/"
+    [outputFormats.Algolia]
+        baseName = "algolia"
+        isPlainText = true
+        mediaType = "application/json"
+        notAlternative = true
+
+[outputs]
+  home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS", "redirects", "Algolia"]
+
+[params.algolia]
+    appId = ""
+    searchKey = ""
+    indexName = ""
+
+[params.extraTools]
+    algoliaSearch = false
+    fontAwesome = true
+    floatingHeader = false
