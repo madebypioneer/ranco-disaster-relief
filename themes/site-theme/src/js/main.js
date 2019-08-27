@@ -195,3 +195,23 @@ else { (capabilityRightArrow.classList.contains('r1'))
 	capabilityLeftArrow.classList.add('opacity-25');
 }
 }
+
+// sticky on scroll
+
+var top = document.querySelector('#capabilitiesTitle').offsetTop;
+
+window.onscroll = function() {
+    var y = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+    if (y - 665 >= top) {
+		capabilitiesTitle.classList.add('fixed');
+		capabilitiesTitle.classList.add('top-0');
+		capabilitiesTitle.classList.add('pt-5');
+    }
+    else {
+		capabilitiesTitle.classList.remove('fixed');
+		capabilitiesTitle.classList.remove('top-0');
+		capabilitiesTitle.classList.remove('pt-5');
+    }
+};
+
+// END
