@@ -8,7 +8,7 @@
 }
 @media screen and (min-width:600px) {
   .hero-image {
-  background-size: 350px;
+  background-size: 500px;
 }
 }
 </style>
@@ -23,7 +23,7 @@
   <div class="flex flex-wrap items-center py-4 md:py-8 px-6 md:px-12 lg:px-0 lg:pl-90p lg:pr-8 select-none header-box">
     <a id="mobile-phone" class="w-1/4 md:w-1/12 lg:hidden text-white text-left" href="">
       <div >
-        <i class="text-base md:text-3xl fas fa-phone"></i>
+        <i class="text-2xl md:text-3xl fas fa-phone"></i>
       </div>
     </a>
     <a id="logo" class="w-1/2 lg:w-1/5 mr-auto" href="/">
@@ -37,13 +37,13 @@
   <div class="py-4 md:py-8 px-6 md:px-12 flex flex-wrap items-center">
     <a id="mobile-phone" class="w-1/4 md:w-1/12 lg:hidden text-white text-left" href="">
       <div >
-        <i class="text-base md:text-3xl fas fa-phone"></i>
+        <i class="text-2xl md:text-3xl fas fa-phone"></i>
       </div>
     </a>
     <a id="logo" class="w-1/2 lg:w-1/5 mr-auto" href="/">
       <img class="w-48 mx-auto md:mx-0 md:mr-auto" src="{{ .Site.Params.logos.logo }}" width="141px">
     </a>
-    <i class="w-1/4 text-base md:text-3xl text-white text-right fas fa-times close-menu"></i>
+    <i class="w-1/4 text-2xl md:text-3xl text-white text-right fas fa-times close-menu"></i>
   </div>
   <div class="w-5/6 mx-auto flex flex-wrap pt-8 mobile-menu-list">
     {{ $currentNode := . }}
@@ -75,18 +75,20 @@
 <div class="flex flex-wrap bg-bottom bg-contain lg:bg-cover -mt-32 header-hero-back">
   {{ if .Params.hero_title }}
   <div class="flex flex-wrap items-center flex-col-reverse md:flex-row w-full mt-32 pb-24">
-    <div class="w-full md:w-7/12 px-6 lg:px-24 xl:px-0 xl:pl-150p xl:pr-24 text-white">
-      <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-8 md:pb-3">{{ if .Params.hero_subtitle }}{{ .Params.hero_subtitle }}{{ else }}{{ end }}</h6>
+    <div class="w-11/12 md:w-7/12 px-6 lg:px-24 xl:px-0 xl:pl-150p xl:pr-24 text-white">
+      {{ if .Params.hero_subtitle }}
+      <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-8 md:pb-3">{{ .Params.hero_subtitle }}</h6>
+      {{ else }}{{ end }}
       <h1 class="hidden md:block font-titling text-5xl xxl:text-6xl font-bold leading-none">{{ .Params.hero_title }}</h1>
-      <p class="font-ibm text-lg xl:text-xl xxl:text-2xl leading-normal -mt-12 md:-mt-3 py-8">{{ .Params.hero_paragraph }}</p>
+      <p class="font-ibm text-lg xl:text-xl xxl:text-2xl leading-normal md:-mt-3 pt-5 pb-8">{{ .Params.hero_paragraph }}</p>
       {{ if eq .Params.has_hero_button true }}
       <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href="{{ .Params.hero_button_link }}">
         <span class="font-titling text-2xs tracking-widest uppercase">{{ .Params.hero_button_text }}</span>
       </a>
       {{ else }}{{ end }}
     </div>
-    <div class="w-full md:w-5/12 lg:bg-cover bg-no-repeat bg-right -mt-5 pl-6 pr-24 hero-image">
-      <h1 class="md:hidden font-titling text-3xl sm:text-5xl text-white font-bold leading-none py-24 sm:py-40">{{ .Params.hero_title }}</h1>
+    <div class="w-full md:w-5/12 lg:bg-cover bg-no-repeat bg-right pl-6 hero-image">
+      <h1 class="md:hidden font-titling text-3xl sm:text-5xl text-white font-bold leading-none py-24">{{ .Params.hero_title }}</h1>
       <div class="md:py-64"></div>
     </div>
   </div>
