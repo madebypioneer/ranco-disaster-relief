@@ -13,6 +13,9 @@ module.exports = {
       'color-00B391': '#00B391',
       'color-E6E6E6': '#e6e6e6',
       'color-262626': '#262626',
+      'color-00594D': '#00594D',
+      'color-008068': '#008068',
+      'color-00261D': '#00261D',
       'blk-overlay': 'rgba(34,34,34,0.3)',
       transparent: 'transparent',
 
@@ -78,6 +81,7 @@ module.exports = {
       ],
     },
     fontSize: {
+      '0': '0rem',
       '2xs': '.625rem',
       xs: '0.75rem',
       sm: '0.875rem',

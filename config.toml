@@ -10,59 +10,68 @@ description = "This domain is established to be used for illustrative examples i
 [[menu.desktop]]
     identifier = "emergency-response"
     name = "Emergency Response"
-    url = "/"
+    url = "/emergency-response/"
     weight = 1
 [[menu.desktop]]
-    identifier = "logisitcs-support"
-    name = "Logisitcs Support"
-    url = "/"
+    identifier = "logistics-support"
+    name = "Logistics Support"
+    url = "/logistics-support/"
     weight = 2
 [[menu.desktop]]
     identifier = "event-support"
     name = "Event Support"
-    url = "/"
+    url = "/event-support/"
     weight = 3
 [[menu.desktop]]
     identifier = "structures"
     name = "Structures"
-    url = "/"
+    url = "/structures/"
     weight = 4
 [[menu.desktop]]
     identifier = "amenities"
     name = "Amenities"
-    url = "/"
+    url = "/amenities/"
     weight = 5
 [[menu.desktop]]
     identifier = "about-us"
     name = "About Us"
-    url = "/"
+    url = "/about-us/"
     weight = 6
 [[menu.desktop]]
     identifier = "contact-us"
     name = "Contact Us"
-    url = "/"
+    url = "/contact-us/"
     weight = 7
 [[menu.mobile]]
-    identifier = "menu-mobile-1"
-    name = "Menu Item 1"
-    url = "/page-1"
+    identifier = "emergency-response"
+    name = "Emergency Response"
+    url = "/emergency-response/"
     weight = 1
-        [[menu.mobile]]
-            identifier = "menu-child-1"
-            name = "Menu Child 1"
-            url = "/page-11/"
-            weight = 1
-            parent = "menu-mobile-1"
 [[menu.mobile]]
-    identifier = "menu-mobile-2"
-    name = "Menu Item 2"
-    url = "/page-2"
+    identifier = "logistics-support"
+    name = "Logistics Support"
+    url = "/logistics-support/"
     weight = 2
 [[menu.mobile]]
-    identifier = "menu-mobile-3"
-    name = "Menu Item 3"
-    url = "/page-3"
+    identifier = "event-support"
+    name = "Event Support"
+    url = "/event-support/"
     weight = 3
+[[menu.mobile]]
+    identifier = "structures"
+    name = "Structures"
+    url = "/structures/"
+    weight = 4
+[[menu.mobile]]
+    identifier = "amenities"
+    name = "Amenities"
+    url = "/amenities/"
+    weight = 5
+[[menu.mobile]]
+    identifier = "about-us"
+    name = "Who we are"
+    url = "/about-us/"
+    weight = 6
 [params.contactNumbers]
     Fax = "555.555.5555"
     Phone = "555.555.5555"
