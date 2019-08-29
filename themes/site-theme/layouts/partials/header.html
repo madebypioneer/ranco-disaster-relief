@@ -6,6 +6,36 @@
   background-image: url("{{ .Params.hero_image }}");
   background-size: 70%;
 }
+.structure-outer-box:hover > img {
+    height: 0px !important;
+    transition: .2s;
+}
+.structure-outer-box:hover > .structure-inner-box {
+    background-color: #0D443A !important;
+    color: #fff !important;
+    height: 100% !important;
+    transition: .2s;
+}
+.structure-outer-box:hover > .structure-inner-box p {
+    font-size: 18px !important;
+    padding-top: 10px;
+    transition: .5s;
+}
+.amenities-outer-box:hover > img {
+    height: 0px !important;
+    transition: .2s;
+}
+.amenities-outer-box:hover > .amenities-inner-box {
+    background-color: #0D443A !important;
+    color: #fff !important;
+    height: 100% !important;
+    transition: .2s;
+}
+.amenities-outer-box:hover > .amenities-inner-box p {
+    font-size: 18px !important;
+    padding-top: 10px;
+    transition: .5s;
+}
 @media screen and (min-width:600px) {
   .hero-image {
   background-size: 500px;
@@ -59,10 +89,10 @@
     </ul>
   </div>
 {{ else }}
-      <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}w-full font-Roboto text-color-00B391 text-left text-3xl font-bold no-underline pb-8" href="{{.URL}}">{{ .Name }}</a>{{ end }}
+      <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}w-full font-titling text-color-00B391 text-left text-sm uppercase no-underline pb-12 tracking-widest" href="{{.URL}}">{{ .Name }}</a>{{ end }}
     {{ end }}
   </div>
-  <div class="absolute bottom-0 flex flex-wrap w-full mx-auto pb-10">
+  <div class="flex flex-wrap w-full mx-auto pb-10">
     <a class="w-auto bg-color-008068 hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner ml-auto mr-2 pt-3 pb-4 px-10 rounded-lg" href="#">
         <span class="font-titling text-white text-2xs tracking-widest uppercase">Call us now</span>
     </a>

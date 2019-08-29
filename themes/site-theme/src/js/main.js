@@ -222,7 +222,13 @@ var sliderCapabilities = tns({
 		"edgePadding": 270,
 	},
 	992: {
-		"edgePadding": 570,
+		"edgePadding": 400,
+	},
+	1200: {
+		"edgePadding": 600,
+	},
+	1440: {
+		"edgePadding": 700,
 	}
   }
 });
