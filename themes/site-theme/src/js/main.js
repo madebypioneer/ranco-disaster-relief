@@ -72,37 +72,42 @@ var capabilityLeftArrow = document.querySelector('.capa-arrow-left');
 var capabilityInn0 = document.querySelector('.capabilities-inner-box-0');
 var capabilityInn1 = document.querySelector('.capabilities-inner-box-1');
 var capabilityInn2 = document.querySelector('.capabilities-inner-box-2');
-var capabilityInn3 = document.querySelector('.capabilities-inner-box-3');
-var capabilityInn4 = document.querySelector('.capabilities-inner-box-4');
+// var capabilityInn3 = document.querySelector('.capabilities-inner-box-3');
+// var capabilityInn4 = document.querySelector('.capabilities-inner-box-4');
 var capabilityOut0 = document.querySelector('.capabilities-outer-box-0');
 var capabilityOut1 = document.querySelector('.capabilities-outer-box-1');
 var capabilityOut2 = document.querySelector('.capabilities-outer-box-2');
-var capabilityOut3 = document.querySelector('.capabilities-outer-box-3');
-var capabilityOut4 = document.querySelector('.capabilities-outer-box-4');
+// var capabilityOut3 = document.querySelector('.capabilities-outer-box-3');
+// var capabilityOut4 = document.querySelector('.capabilities-outer-box-4');
 
 capabilityRightArrow.onclick = function() {
+		// SECOND click of right arrow
 		if (capabilityRightArrow.classList.contains('r1')) {
 			capabilityRightArrow.classList.add('r2');
 			capabilityRightArrow.classList.remove('r1');
 			capabilityInn1.classList.remove('lg:shadow-lg');
 			capabilityInn2.classList.add('lg:shadow-lg');
 		}
+		// // THIRD click of right arrow
+		// else if (capabilityRightArrow.classList.contains('r2')) {
+		// 	capabilityRightArrow.classList.add('r3');
+		// 	capabilityRightArrow.classList.remove('r2');
+		// 	capabilityInn2.classList.remove('lg:shadow-lg');
+		// 	capabilityInn3.classList.add('lg:shadow-lg');
+		// }
+		// // FOURTH click of right arrow
+		// else if (capabilityRightArrow.classList.contains('r3')) {
+		// 	capabilityRightArrow.classList.add('r4');
+		// 	capabilityRightArrow.classList.remove('r3');
+		// 	capabilityInn3.classList.remove('lg:shadow-lg');
+		// 	capabilityInn4.classList.add('lg:shadow-lg');
+		// 	capabilityRightArrow.classList.add('opacity-25');
+		// }
+		// CLEAR right clicks
 		else if (capabilityRightArrow.classList.contains('r2')) {
-			capabilityRightArrow.classList.add('r3');
-			capabilityRightArrow.classList.remove('r2');
-			capabilityInn2.classList.remove('lg:shadow-lg');
-			capabilityInn3.classList.add('lg:shadow-lg');
-		}
-		else if (capabilityRightArrow.classList.contains('r3')) {
-			capabilityRightArrow.classList.add('r4');
-			capabilityRightArrow.classList.remove('r3');
-			capabilityInn3.classList.remove('lg:shadow-lg');
-			capabilityInn4.classList.add('lg:shadow-lg');
 			capabilityRightArrow.classList.add('opacity-25');
 		}
-		else if (capabilityRightArrow.classList.contains('r4')) {
-			capabilityRightArrow.classList.add('');
-		}
+		// FIRST click of right arrow
 		else {
 			capabilityRightArrow.classList.add('r1');
 			capabilityInn0.classList.remove('lg:shadow-lg');
@@ -112,24 +117,25 @@ capabilityRightArrow.onclick = function() {
 }
 
 capabilityLeftArrow.onclick = function() {
-	if (capabilityRightArrow.classList.contains('r4')) {
-		capabilityRightArrow.classList.remove('r4');
-		capabilityRightArrow.classList.add('r3');
-		capabilityInn3.classList.remove('lg:shadow-lg');
-		capabilityInn2.classList.add('lg:shadow-lg');
-		capabilityRightArrow.classList.remove('opacity-25');
-	}
-	else if (capabilityRightArrow.classList.contains('r3')) {
-		capabilityRightArrow.classList.remove('r3');
-		capabilityRightArrow.classList.add('r2');
-		capabilityInn3.classList.remove('lg:shadow-lg');
-		capabilityInn2.classList.add('lg:shadow-lg');
-	}
-	else if (capabilityRightArrow.classList.contains('r2')) {
+	// if (capabilityRightArrow.classList.contains('r4')) {
+	// 	capabilityRightArrow.classList.remove('r4');
+	// 	capabilityRightArrow.classList.add('r3');
+	// 	capabilityInn3.classList.remove('lg:shadow-lg');
+	// 	capabilityInn2.classList.add('lg:shadow-lg');
+	// 	
+	// }
+	// else if (capabilityRightArrow.classList.contains('r3')) {
+	// 	capabilityRightArrow.classList.remove('r3');
+	// 	capabilityRightArrow.classList.add('r2');
+	// 	capabilityInn3.classList.remove('lg:shadow-lg');
+	// 	capabilityInn2.classList.add('lg:shadow-lg');
+	// }
+	if (capabilityRightArrow.classList.contains('r2')) {
 		capabilityRightArrow.classList.remove('r2');
 		capabilityRightArrow.classList.add('r1');
 		capabilityInn2.classList.remove('lg:shadow-lg');
 		capabilityInn1.classList.add('lg:shadow-lg');
+		capabilityRightArrow.classList.remove('opacity-25');
 	}
 	else { (capabilityRightArrow.classList.contains('r1'))
 		capabilityRightArrow.classList.remove('r1');
@@ -146,21 +152,21 @@ capabilityRightArrow.onclick = function() {
 		capabilityOut1.classList.remove('pop-shadow');
 		capabilityOut2.classList.add('pop-shadow');
 	}
+	// else if (capabilityRightArrow.classList.contains('r2')) {
+	// 	capabilityRightArrow.classList.add('r3');
+	// 	capabilityRightArrow.classList.remove('r2');
+	// 	capabilityOut2.classList.remove('pop-shadow');
+	// 	capabilityOut3.classList.add('pop-shadow');
+	// }
+	// else if (capabilityRightArrow.classList.contains('r3')) {
+	// 	capabilityRightArrow.classList.add('r4');
+	// 	capabilityRightArrow.classList.remove('r3');
+	// 	capabilityOut3.classList.remove('pop-shadow');
+	// 	capabilityOut4.classList.add('pop-shadow');
+	// 	capabilityRightArrow.classList.add('opacity-25');
+	// }
 	else if (capabilityRightArrow.classList.contains('r2')) {
-		capabilityRightArrow.classList.add('r3');
-		capabilityRightArrow.classList.remove('r2');
-		capabilityOut2.classList.remove('pop-shadow');
-		capabilityOut3.classList.add('pop-shadow');
-	}
-	else if (capabilityRightArrow.classList.contains('r3')) {
-		capabilityRightArrow.classList.add('r4');
-		capabilityRightArrow.classList.remove('r3');
-		capabilityOut3.classList.remove('pop-shadow');
-		capabilityOut4.classList.add('pop-shadow');
 		capabilityRightArrow.classList.add('opacity-25');
-	}
-	else if (capabilityRightArrow.classList.contains('r4')) {
-		capabilityRightArrow.classList.add('');
 	}
 	else {
 		capabilityRightArrow.classList.add('r1');
@@ -171,24 +177,25 @@ capabilityRightArrow.onclick = function() {
 }
 
 capabilityLeftArrow.onclick = function() {
-if (capabilityRightArrow.classList.contains('r4')) {
-	capabilityRightArrow.classList.remove('r4');
-	capabilityRightArrow.classList.add('r3');
-	capabilityOut4.classList.remove('pop-shadow');
-	capabilityOut3.classList.add('pop-shadow');
-	capabilityRightArrow.classList.remove('opacity-25');
-}
-else if (capabilityRightArrow.classList.contains('r3')) {
-	capabilityRightArrow.classList.remove('r3');
-	capabilityRightArrow.classList.add('r2');
-	capabilityOut3.classList.remove('pop-shadow');
-	capabilityOut2.classList.add('pop-shadow');
-}
-else if (capabilityRightArrow.classList.contains('r2')) {
+// if (capabilityRightArrow.classList.contains('r4')) {
+// 	capabilityRightArrow.classList.remove('r4');
+// 	capabilityRightArrow.classList.add('r3');
+// 	capabilityOut4.classList.remove('pop-shadow');
+// 	capabilityOut3.classList.add('pop-shadow');
+// 	capabilityRightArrow.classList.remove('opacity-25');
+// }
+// else if (capabilityRightArrow.classList.contains('r3')) {
+// 	capabilityRightArrow.classList.remove('r3');
+// 	capabilityRightArrow.classList.add('r2');
+// 	capabilityOut3.classList.remove('pop-shadow');
+// 	capabilityOut2.classList.add('pop-shadow');
+// }
+if (capabilityRightArrow.classList.contains('r2')) {
 	capabilityRightArrow.classList.remove('r2');
 	capabilityRightArrow.classList.add('r1');
 	capabilityOut2.classList.remove('pop-shadow');
 	capabilityOut1.classList.add('pop-shadow');
+	capabilityRightArrow.classList.remove('opacity-25');
 }
 else { (capabilityRightArrow.classList.contains('r1'))
 	capabilityRightArrow.classList.remove('r1');

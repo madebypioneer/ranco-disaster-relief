@@ -1,7 +1,7 @@
 baseURL = "https://ranco-disaster.netlify.com/"
 languageCode = "en-us"
 theme = "site-theme"
-title = "Example"
+title = "Ranco Response"
 enableRobotsTXT = true
 
 [params.meta]
