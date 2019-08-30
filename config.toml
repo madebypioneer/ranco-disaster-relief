@@ -5,7 +5,7 @@ title = "Ranco Response"
 enableRobotsTXT = true
 
 [params.meta]
-description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
+description = "Ranco Response combines the strengths, skills, and expertise of more than 35 years of proven field logistics successfully executing both planned and unplanned events."
 
 [[menu.desktop]]
     identifier = "emergency-response"
@@ -73,21 +73,21 @@ description = "This domain is established to be used for illustrative examples i
     url = "/about-us/"
     weight = 6
 [params.contactNumbers]
-    Fax = "555.555.5555"
-    Phone = "555.555.5555"
+    Fax = ""
+    Phone = "267-885-7651"
 [params.Logos]
     darkLogo = "/pageimg/RR.Horizontal.White.svg"
     logo = "/pageimg/RR.Horizontal.White.svg"
     mobileLogo = "/pageimg/RR.Horizontal.White.svg"
 [params.utilityImages]
-    thankyouBackground = "/pageimg/thank-you-contact.jpg"
+    thankyouBackground = ""
 [params.address]
     city = "Statesboro"
     state = "GA"
-    street = "P.O. Box 134"
+    street = "P.O. Box 461"
     zip = 30459
 [params.email]
-    email = "example@example.com"
+    email = "vdemasi@rancoresponse.com"
 [params.tracking]
     googleAnalytics = ""
     cloudinaryUrl = ""
