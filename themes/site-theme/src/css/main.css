@@ -69,7 +69,9 @@
 .tns-subpixel {}
 .tns-calc {}
 .tns-horizontal {}
-.tns-item {}
+.tns-item {
+  margin-left: 0 !important;
+}
 .tns-normal {}
 .tns-slide-active {}
 .tns-fadeIn {}
@@ -77,3 +79,6 @@
 .controls {}
 .tns-carousel {}
 .tns-ovh {}
+.tns-horizontal .tns-carousel .tns-no-subpixel > .tns-item {
+  margin-right: 0 !important;
+}
