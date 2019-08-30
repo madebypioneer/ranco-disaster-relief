@@ -70,8 +70,8 @@
         </div>
         <div class="w-1/2">
             <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Reach Out</h6>
-            <p class="font-ibm text-base leading-normal">Phone 912-555-5555</p>
-            <a href="mailto:hey" class="font-ibm text-base text-color-00B391 leading-normal pb-12">Email Us</a>
+            <p class="font-ibm text-base leading-normal">Phone 1+ {{ .Site.Params.contactNumbers.Phone }}</p>
+            <a href="mailto:{{ .Site.Params.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">Email Us</a>
         </div>
     </div>
     <div class="flex flex-wrap w-full lg:w-1/2">
