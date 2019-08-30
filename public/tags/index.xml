@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Example</title>
-    <link>https://gz-default.netlify.com/tags/</link>
-    <description>Recent content in Tags on Example</description>
+    <title>Tags on Ranco Response</title>
+    <link>https://ranco-disaster.netlify.com/tags/</link>
+    <description>Recent content in Tags on Ranco Response</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://gz-default.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ranco-disaster.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
