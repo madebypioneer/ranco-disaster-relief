@@ -69,9 +69,7 @@
 .tns-subpixel {}
 .tns-calc {}
 .tns-horizontal {}
-.tns-item {
-  margin-left: 0 !important;
-}
+.tns-item {}
 .tns-normal {}
 .tns-slide-active {}
 .tns-fadeIn {}
@@ -79,6 +77,12 @@
 .controls {}
 .tns-carousel {}
 .tns-ovh {}
-.tns-horizontal .tns-carousel .tns-no-subpixel > .tns-item {
-  margin-right: 0 !important;
+
+@supports (-ms-ime-align:auto) {
+  .tns-item {
+    margin-left: 0 !important;
+  }
+  .tns-horizontal .tns-carousel .tns-no-subpixel > .tns-item {
+    margin-right: 0 !important;
+  }
 }
