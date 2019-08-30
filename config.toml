@@ -89,7 +89,7 @@ description = "Ranco Response combines the strengths, skills, and expertise of m
 [params.email]
     email = "vdemasi@rancoresponse.com"
 [params.tracking]
-    googleAnalytics = ""
+    googleAnalytics = "UA-121813241-26"
     cloudinaryUrl = ""
 [params.socialLinks]
     facebook = ""
@@ -97,7 +97,7 @@ description = "Ranco Response combines the strengths, skills, and expertise of m
     linkedin = ""
     pinterest = ""
 [params.publishingSettings]
-    siteinProduction = false
+    siteinProduction = true
 
 [mediaTypes]
   [mediaTypes."text/noExt"]
