@@ -1,4 +1,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
+  <url>
+    <loc>https://ranco-disaster.netlify.com/emergency-response/more-info/</loc>
+    <lastmod>2019-04-24T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranco-disaster.netlify.com/event-support/more-info/</loc>
+    <lastmod>2019-04-24T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranco-disaster.netlify.com/logistics-support/more-info/</loc>
+    <lastmod>2019-04-24T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranco-disaster.netlify.com/post/</loc>
+    <lastmod>2019-04-24T05:00:00+00:00</lastmod>
+  </url>
+  
 </urlset>

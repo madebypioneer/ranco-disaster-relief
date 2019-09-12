@@ -1,0 +1,92 @@
+{{ define "main" }}
+
+<style>
+.vertical-text {
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+}
+#amenities {
+  background-image: url("/pageimg/hero-back.PNG")
+}
+.structure-outer-box:hover > img {
+    height: 0px !important;
+}
+.structure-outer-box:hover > .structure-inner-box {
+    background-color: #0D443A !important;
+    color: #fff !important;
+    height: 100% !important;
+    transition: .2s;
+}
+.structure-outer-box:hover > .structure-inner-box p {
+    font-size: 18px !important;
+    padding-top: 10px;
+}
+.amenities-outer-box:hover > img {
+    height: 0px !important;
+}
+.amenities-outer-box:hover > .amenities-inner-box {
+    background-color: #0D443A !important;
+    color: #fff !important;
+    height: 100% !important;
+}
+.amenities-outer-box:hover > .amenities-inner-box p {
+    font-size: 18px !important;
+    padding-top: 10px;
+}
+.facilities-support {
+    background-image: url("/pageimg/facility-support.jpg");
+}
+.turn-key-camps {
+    background-image: url("/pageimg/turn-key-camps.jpg");
+}
+.tactical-operation-centers {
+    background-image: url("/pageimg/Tactical Operation Centers.jpg");
+}
+.business-continuity {
+    background-image: url("/pageimg/business-continuity-build-solution.jpg");
+}
+.lsa-support {
+    background-image: url("/pageimg/LSA Support.jpg");
+}
+.inner-image {
+    background-image: url("{{ .Params.top_image }}");
+}
+p {
+    padding-top: 30px;
+}
+ul {
+    list-style: disc;
+    padding-top: 15px;
+}
+</style>
+
+<section id="event-support-subpage" class="relative flex flex-wrap bg-color-F0F0F0 py-24 md:pl-6 md:pr-20">
+
+<div id="eventsupportTitle" class="w-1/6 lg:w-1/5">
+    <h2 class="w-1/2 sticky lg:relative top-0 font-titling text-3xl lg:text-4xl text-color-333333 font-bold mx-auto py-4 uppercase vertical-text opacity-50">Event Support</h2>
+</div>
+
+<div class="flex flex-wrap items-start w-4/5 xl:w-9/12">
+
+<div id="lunch" class="flex flex-wrap w-full lg:w-11/12 items-start px-5">
+
+    <div class="w-full bg-cover h-80 bg-no-repeat bg-center inner-image">
+        <div class="py-20 md:py-24"></div>
+    </div>
+    <div class="w-full text-black lg:pr-8">
+        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">Excellence and expertise</h6>
+        <h2 class="font-titling text-3xl font-bold leading-none pb-3">{{ .Title }}</h2>
+        <div class="font-ibm text-xl leading-normal pb-12 opacity-75">{{ .Content }}</div>
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+{{ partial "page-globals/greenbacked-capabilities.html" . }}
+
+{{ partial "page-globals/green-CTA.html" . }}
+
+{{ end }}
