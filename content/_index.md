@@ -10,7 +10,7 @@ metaDescription = "Ranco Response rapidly delivers temporary facilities in a saf
 hero_title = "Your Readiness is Our Mission"
 hero_paragraph = "Ranco Response rapidly delivers temporary facilities in a safety-based and quality-driven culture of preparedness to meet the demands of mobilized surge populations."
 has_hero_button = true
-hero_button_link = "#capabilities"
+hero_button_link = "/contact-us/"
 hero_button_text = "Get a Quote"
 hero_image = "/pageimg/ranco-response-relief.JPG"
 +++
