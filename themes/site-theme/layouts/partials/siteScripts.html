@@ -21,3 +21,32 @@ let scrollpos = window.scrollY
 </script>
 {{ else }}
 {{ end }}
+
+<!-- elevator button -->
+
+{{ partial "js/elevator.min.js.html" . }}
+
+<script>
+window.onload = function() {
+      var elevator = new Elevator({
+        element: document.querySelector('#go-to-top-button'),
+        duration: 1000
+      });
+}
+</script>
+
+<script>
+  let scrollpos = window.scrollY
+    const header = document.querySelector(".header-container")
+    const headerHeight = header.offsetHeight
+    const backtoTop = document.querySelector("#go-to-top-button")
+    const visiblebacktoTop = () => backtoTop.classList.add("opacity-100")
+    const hiddenbacktoTop = () => backtoTop.classList.remove("opacity-100")
+    window.addEventListener('scroll', function() { 
+      scrollpos = window.scrollY;
+      if (scrollpos >= headerHeight + 2000) { visiblebacktoTop()}
+      else { hiddenbacktoTop() }
+  })
+  </script>
+
+  <!-- END elevator button -->
