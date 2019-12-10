@@ -65,13 +65,13 @@
         <p class="font-ibm text-base leading-normal pb-12">When time is of the essence, Ranco Response specializes in rapidly deploying fully-functioning facilities and resources to support natural disasters, civil disruptions, migrant populations, mass gatherings, or military operations. When time is of the essence, Ranco Response specializes in rapidly deploying fully-functioning facilities and resources to support natural disasters, civil disruptions, migrant populations, mass gatherings, or military operations.</p>
         <div class="w-1/2">
             <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Home Base</h6>
-            <p class="font-ibm text-base leading-normal">P.O. Box 461</p>
-            <p class="font-ibm text-base leading-normal pb-12">Statesboro, Ga. 30459</p>
+            <p class="font-ibm text-base leading-normal">{{ .Site.Data.global_data.address.street }}</p>
+            <p class="font-ibm text-base leading-normal pb-12">{{ .Site.Data.global_data.address.city }}, {{ .Site.Data.global_data.address.state }}. {{ .Site.Data.global_data.address.zip }}</p>
         </div>
         <div class="w-1/2">
             <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Reach Out</h6>
-            <p class="font-ibm text-base leading-normal">Phone 1+ {{ .Site.Params.contactNumbers.Phone }}</p>
-            <a href="mailto:{{ .Site.Params.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">Email Us</a>
+            <p class="font-ibm text-base leading-normal">Phone 1+ {{ .Site.Data.global_data.contact_numbers.phone }}</p>
+            <a href="mailto:{{ .Site.Data.global_data.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">Email Us</a>
         </div>
     </div>
     <div class="flex flex-wrap w-full lg:w-1/2">

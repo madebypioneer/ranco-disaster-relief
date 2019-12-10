@@ -53,13 +53,13 @@
 
 <section id="header" class="bg-transparent header-container">
   <div class="flex flex-wrap items-center py-4 md:py-8 px-6 md:px-12 lg:px-0 lg:pl-90p lg:pr-8 select-none header-box">
-    <a id="mobile-phone" class="w-1/4 md:w-1/12 lg:hidden text-white text-left" href="tel:12678857651">
+    <a id="mobile-phone" class="w-1/4 md:w-1/12 lg:hidden text-white text-left" href="tel:1{{ .Site.Data.global_data.contact_numbers.phone }}">
       <div>
         <i class="text-2xl md:text-3xl fas fa-phone"></i>
       </div>
     </a>
     <a id="logo" class="w-1/2 lg:w-1/5 mr-auto" href="/">
-      <img class="w-48 lg:w-141p mx-auto md:mx-0 md:mr-auto" src="{{ .Site.Params.logos.logo }}" width="141px">
+      <img class="w-48 lg:w-141p mx-auto md:mx-0 md:mr-auto" src="{{ .Site.Data.global_data.logos.logo }}" width="141px">
     </a>
     {{ partial "siteNavi.html" . }}
   </div>
@@ -73,7 +73,7 @@
       </div>
     </a>
     <a id="logo" class="w-1/2 lg:w-1/5 mr-auto" href="/">
-      <img class="w-48 mx-auto md:mx-0 md:mr-auto" src="{{ .Site.Params.logos.logo }}" width="141px">
+      <img class="w-48 mx-auto md:mx-0 md:mr-auto" src="{{ .Site.Data.global_data.logos.logo }}" width="141px">
     </a>
     <i class="w-1/4 text-2xl md:text-3xl text-white text-right fas fa-times close-menu"></i>
   </div>
@@ -95,10 +95,10 @@
     {{ end }}
   </div>
   <div class="flex flex-wrap w-full mx-auto pb-10">
-    <a class="w-auto bg-color-008068 hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner ml-auto mr-2 pt-3 pb-4 px-10 rounded-lg" href="tel:12678857651">
+    <a class="w-auto bg-color-008068 hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner ml-auto mr-2 pt-3 pb-4 px-10 rounded-lg" href="tel:1{{ .Site.Data.global_data.contact_numbers.phone }}">
         <span class="font-titling text-white text-2xs tracking-widest uppercase">Call us now</span>
     </a>
-    <a class="w-auto bg-color-008068 hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner mr-auto ml-2 pt-3 pb-4 px-10 rounded-lg" href="mailto:{{ .Site.Params.email.email }}">
+    <a class="w-auto bg-color-008068 hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner mr-auto ml-2 pt-3 pb-4 px-10 rounded-lg" href="mailto:{{ .Site.Data.global_data.email.email }}">
         <span class="font-titling text-white text-2xs tracking-widest uppercase">Email us now</span>
     </a>
   </div>

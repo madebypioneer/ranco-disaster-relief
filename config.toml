@@ -4,9 +4,6 @@ theme = "site-theme"
 title = "Ranco Response"
 enableRobotsTXT = true
 
-[params.meta]
-description = "Ranco Response combines the strengths, skills, and expertise of more than 35 years of proven field logistics successfully executing both planned and unplanned events."
-
 [[menu.desktop]]
     identifier = "emergency-response"
     name = "Emergency Response"
@@ -72,25 +69,10 @@ description = "Ranco Response combines the strengths, skills, and expertise of m
     name = "Who we are"
     url = "/about-us/"
     weight = 6
-[params.contactNumbers]
-    Fax = ""
-    Phone = "267-885-7651"
-[params.Logos]
-    darkLogo = "/pageimg/RR.Horizontal.White.svg"
-    logo = "/pageimg/RR.Horizontal.White.svg"
-    mobileLogo = "/pageimg/RR.Horizontal.White.svg"
 [params.utilityImages]
     thankyouBackground = ""
-[params.address]
-    city = "Statesboro"
-    state = "GA"
-    street = "P.O. Box 461"
-    zip = 30459
-[params.email]
-    email = "vdemasi@rancoresponse.com"
 [params.tracking]
-    googleAnalytics = "UA-121813241-26"
-    cloudinaryUrl = ""
+    cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
 [params.socialLinks]
     facebook = ""
     insta = ""
