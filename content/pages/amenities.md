@@ -5,6 +5,6 @@ layout = "amenities"
 url = "/amenities/"
 title = "Amenities"
 page-status = "amenities"
-publish_image = "/pageimg/hero-homepage.jpg"
+publish_image = "/v1576018357/Ranco%20Response/hero-homepage_a12ysu.jpg"
 metaDescription = "Ranco Response own and maintains the full spectrum of components necessary for temporary facility support."
 +++

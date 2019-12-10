@@ -5,9 +5,9 @@ layout = "subpage"
 url = "/emergency-response/more-info/"
 title = "Emergency Response"
 page-status = "emergency-response-subpage"
-publish_image = "/pageimg/emergency-response.jpeg"
+publish_image = "/v1576018356/Ranco%20Response/emergency-response_wwwadr.jpg"
 metaDescription = "Ranco Response, through code-compliant equipment ownership, proven processes modeled after National Incident Management System and Incident Command System, and accountability at all levels of the organization, stands ready to meet the demands of first responders."
-top_image = "/pageimg/emergency-response.jpeg"
+top_image = "/v1576018356/Ranco%20Response/emergency-response_wwwadr.jpg"
 +++
 
 In an emergency response scenario, time is of the essence with the safety of responders and the impacted population hinging on mission critical resources. Ranco Response, through code-compliant equipment ownership, proven processes modeled after National Incident Management System and Incident Command System, and accountability at all levels of the organization, stands ready to meet the demands of first  responders.

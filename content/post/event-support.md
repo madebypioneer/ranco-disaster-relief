@@ -5,9 +5,9 @@ layout = "subpage"
 url = "/event-support/more-info/"
 title = "Event Support"
 page-status = "event-support-subpage"
-publish_image = "/pageimg/event-support-page.jpg"
+publish_image = "/v1576018357/Ranco%20Response/event-support-page_xfhgcy.jpg"
 metaDescription = "When little to no infrastructure is available to meet the demands of festival attendees or other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population."
-top_image = "/pageimg/event-support-page.jpg"
+top_image = "/v1576018357/Ranco%20Response/event-support-page_xfhgcy.jpg"
 +++
 
 When little to no infrastructure is available to meet the demands of festival attendees or other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population. All facilities and systems are assimilated into existing infrastructure and operated in accordance with all federal, state, and local guidelines with the safety of the attendees the number one priority.

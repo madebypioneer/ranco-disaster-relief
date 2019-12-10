@@ -5,9 +5,9 @@ layout = "3rd-tier-pages"
 url = "/facilities-support/"
 title = "Facilities Support"
 page-status = "facilities-support-subpage"
-publish_image = "/pageimg/logistics-support-page.JPG"
+publish_image = "/v1576018357/Ranco%20Response/logistics-support-page_snycle.jpg"
 metaDescription = "Ranco Response provides janitorial, maintenance, trash disposal, security guards and services, mail routing, reception, laundry, and other related services to support operations to both government-owned and contractor-owned facilities."
-top_image = "/pageimg/logistics-support-page.JPG"
+top_image = "/v1576018357/Ranco%20Response/logistics-support-page_snycle.jpg"
 +++
 
 Ranco Response provides janitorial, maintenance, trash disposal, security guards and services, mail routing, reception, laundry, and other related services to support operations to both government-owned and contractor-owned facilities. With a focus on safety, efficiency, sustainability, and quality, Ranco Response maintains the infrastructure in proper operating conditions through routine, preventative maintenance and safety checks, helping to prevent operational failure, reducing operating costs and allowing occupants to focus on their core mission. 

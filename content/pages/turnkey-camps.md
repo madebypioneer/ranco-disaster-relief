@@ -5,9 +5,9 @@ layout = "3rd-tier-pages"
 url = "/turnkey-camps/"
 title = "Turnkey Camps"
 page-status = "turnkey-camps-subpage"
-publish_image = "/pageimg/turn-key-camps.jpg"
+publish_image = "/v1576018358/Ranco%20Response/turn-key-camps_er7gg1.jpg"
 metaDescription = "Whenever groups of people need to be relocated or are temporarily displaced, there is a need for provisional life support facilities to sustain them. These relocations or displacements can be due to natural disasters, civil disruptions, migrant populations, mass gatherings, or military maneuvers."
-top_image = "/pageimg/turn-key-camps.jpg"
+top_image = "/v1576018358/Ranco%20Response/turn-key-camps_er7gg1.jpg"
 +++
 
 Whenever groups of people need to be relocated or are temporarily displaced, there is a need for provisional life support facilities to sustain them. These relocations or displacements can be due to natural disasters, civil disruptions, migrant populations, mass gatherings, or military maneuvers.

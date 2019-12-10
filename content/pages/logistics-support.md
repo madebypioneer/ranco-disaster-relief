@@ -5,7 +5,7 @@ layout = "logistics-support"
 url = "/logistics-support/"
 title = "Logistics Support"
 page_status = "logistics-support"
-publish_image = "/pageimg/logistics-support-page.JPG"
+publish_image = "/v1576018357/Ranco%20Response/logistics-support-page_snycle.jpg"
 metaDescription = "Ranco Response augments the existing capabilities of both military and commercial entities."
 hero_title = "Logistics Support"
 hero_subtitle = "rapid READINESS and deployment"
@@ -13,5 +13,5 @@ hero_paragraph = "Ranco Response augments the existing capabilities of both mili
 has_hero_button = false
 hero_button_link = ""
 hero_button_text = ""
-hero_image = "/pageimg/logistics-support-page.JPG"
+hero_image = "/v1576018357/Ranco%20Response/logistics-support-page_snycle.jpg"
 +++

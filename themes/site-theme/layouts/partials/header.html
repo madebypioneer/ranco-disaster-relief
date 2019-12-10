@@ -3,7 +3,7 @@
   background-image: url("/pageimg/hero-back.PNG")
 }
 .hero-image {
-  background-image: url("{{ .Params.hero_image }}");
+  background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.hero_image }}");
   background-size: 70%;
 }
 @media screen and (min-width:600px) {

@@ -5,9 +5,9 @@ layout = "subpage"
 url = "/logistics-support/more-info/"
 title = "Logistics Support"
 page-status = "logistics-support-subpage"
-publish_image = "/pageimg/logistics-support-page.JPG"
+publish_image = "/v1576018357/Ranco%20Response/logistics-support-page_snycle.jpg"
 metaDescription = "Ranco Response augments the existing capabilities of both military and commercial entities."
-top_image = "/pageimg/logistics-support-page.JPG"
+top_image = "/v1576018357/Ranco%20Response/logistics-support-page_snycle.jpg"
 +++
 
 Ranco Response augments the existing capabilities of both military and commercial entities. We deliver, setup, operate and maintain all of the equipment, allowing our customers to focus on their mission, whether it is a military training event or a business continuity situation or any enduring facility support mission, Ranco Response is there.
