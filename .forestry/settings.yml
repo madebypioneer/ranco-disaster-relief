@@ -40,6 +40,7 @@ sections:
   match: "**/*"
   exclude: thank-you.md
   templates:
+  - contact-us
   - pages
 - type: document
   path: themes/site-theme/data/global_data.toml
