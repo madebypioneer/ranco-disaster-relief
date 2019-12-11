@@ -2,9 +2,9 @@
 
 <div class="flex flex-wrap w-5/6 lg:w-4/5 mx-auto px-3 lg:px-0">
     <div class="flex flex-wrap lg:w-1/2 mr-auto lg:pl-6 pr-6 lg:pr-0">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest">Proactive Planning</h6>
-    <h2 class="w-full font-titling text-3xl lg:text-5xl xxl:text-6xl font-bold text-white leading-none py-4">Everything under one roof</h2>
-    <p class="w-full font-ibm text-xl text-white leading-normal pb-4 opacity-75">Our organic inventory is capable of supporting up to 5,000 persons and is regularly maintained through our planned and documented maintenance system.</p>
+    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest">{{ .Site.Data.global_data.structures_bottom_sections.subtitle }}</h6>
+    <h2 class="w-full font-titling text-3xl lg:text-5xl xxl:text-6xl font-bold text-white leading-none py-4">{{ .Site.Data.global_data.structures_bottom_sections.title }}</h2>
+    <p class="w-full font-ibm text-xl text-white leading-normal pb-4 opacity-75">{{ .Site.Data.global_data.structures_bottom_sections.text }}</p>
     </div>
     <div class="flex flex-wrap w-full max-w-4xl pt-5 pb-24 lg:pl-6">
         {{ range (where .Site.Pages "Type" "structures" ) }}
@@ -22,7 +22,7 @@
 </div>
 
 <div id="structuresTitle" class="w-1/6 md:w-1/5 -ml-8 md:left-0">
-    <h2 class="w-1/2 sticky lg:relative top-0 font-titling text-3xl lg:text-5xl text-color-E6E6E6 font-bold mx-auto py-4 uppercase vertical-text opacity-50">Structures</h2>
+    <h2 class="w-1/2 sticky lg:relative top-0 font-titling text-3xl lg:text-5xl text-color-E6E6E6 font-bold mx-auto py-4 uppercase vertical-text opacity-50">{{ .Site.Data.global_data.structures_bottom_sections.vertical_title }}</h2>
 </div>
 
 </section>

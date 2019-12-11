@@ -15,7 +15,19 @@ city = "Statesboro"
 state = "GA"
 street = "P.O. Box 461"
 zip = 30459
+[amenities_bottom_sections]
+title = "Your comfort, covered"
+subtitle = "Proactive Planning"
+vertical_title = "AMENITIES"
+text = "Ranco Response own and maintains the full spectrum of components necessary for temporary facility support. Whether it is a turn-key base camp or wrap around components enhancing existing utilities, Ranco Response is prepared to assist in your readiness."
+[structures_bottom_sections]
+title = "Everything under one roof"
+subtitle = "Proactive Planning"
+vertical_title = "Structures"
+text = "Our organic inventory is capable of supporting up to 5,000 persons and is regularly maintained through our planned and documented maintenance system."
 [capabilities_bottom_sections]
+subtitle = "Excellence and Expertise"
+vertical_title = "Capabilities"
 [capabilities_bottom_sections.emergency_response]
 title = "Emergency Response"
 text = "Ranco Response augments the existing capabilities of both military and commercial entities. We deliver, setup, operate and maintain all of the equipment, allowing our customers to focus on their mission, whether it is a military training event or a business continuity situation or any enduring facility support mission, Ranco Response is there."
@@ -65,3 +77,9 @@ text = "Our services range from full-service turnkey base camps and FOB support 
 button_text = "See Our Capabilities"
 button_link = "/lsa-support/"
 image = "/v1576018357/Ranco%20Response/LSA_Support_yrld5f.jpg"
+[cta_before_footer_section]
+title = "Find out how Ranco Response can help you execute your next project."
+[cta_before_footer_section.call_button]
+button_text = "Call us Now"
+[cta_before_footer_section.email_button]
+button_text = "Email us Now"
