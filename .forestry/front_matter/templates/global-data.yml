@@ -277,3 +277,5 @@ fields:
     - type: text
       name: button_text
       label: button text
+pages:
+- themes/site-theme/data/global_data.toml
