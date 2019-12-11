@@ -1,0 +1,13 @@
+---
+label: Structures
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: textarea
+  name: text
+  label: text
+- type: file
+  name: image
+  label: image
