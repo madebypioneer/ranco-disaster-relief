@@ -9,6 +9,7 @@ sections:
   label: Amenities
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content
   label: Pages
