@@ -39,6 +39,8 @@ sections:
   create: all
   match: "**/*"
   exclude: thank-you.md
+  templates:
+  - pages
 - type: document
   path: themes/site-theme/data/global_data.toml
   label: Global Data
