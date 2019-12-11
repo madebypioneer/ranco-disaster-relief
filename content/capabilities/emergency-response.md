@@ -1,13 +1,13 @@
 +++
-date = "2019-04-24T05:00:00+00:00"
-url = "/emergency-response/more-info/"
-title = "Emergency Response"
+date = 2019-04-24T05:00:00Z
+metaDescription = "Ranco Response augments the existing capabilities of both military and commercial entities. We deliver, setup, operate and maintain all of the equipment, allowing our customers to focus on their mission, whether it is a military training event or a business continuity situation or any enduring facility support mission, Ranco Response is there."
 page-status = "emergency-response-subpage"
 publish_image = "/v1576018356/Ranco%20Response/emergency-response_wwwadr.jpg"
-metaDescription = "Ranco Response augments the existing capabilities of both military and commercial entities. We deliver, setup, operate and maintain all of the equipment, allowing our customers to focus on their mission, whether it is a military training event or a business continuity situation or any enduring facility support mission, Ranco Response is there."
+title = "Emergency Response"
 top_image = "/v1576018356/Ranco%20Response/emergency-response_wwwadr.jpg"
-+++
+url = "/emergency-response/more-info/"
 
++++
 In an emergency response scenario, time is of the essence with the safety of responders and the impacted population hinging on mission critical resources. Ranco Response, through code-compliant equipment ownership, proven processes modeled after National Incident Management System and Incident Command System, and accountability at all levels of the organization, stands ready to meet the demands of first  responders.
 
 Engineered Soft Wall Structures – Climate controlled tent facilities with floors, lights, doors, safety packages, and fire extinguishers.

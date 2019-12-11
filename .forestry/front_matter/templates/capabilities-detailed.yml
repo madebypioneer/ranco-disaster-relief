@@ -23,3 +23,5 @@ fields:
 - type: file
   name: top_image
   label: top_image
+pages:
+- content/capabilities/emergency-response.md
