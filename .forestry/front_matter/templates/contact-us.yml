@@ -1,0 +1,65 @@
+---
+label: Contact Us
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page-status
+  label: page-status
+- type: file
+  name: publish_image
+  label: publish_image
+- type: textarea
+  name: metaDescription
+  label: metaDescription
+- type: field_group
+  name: top_section
+  label: top_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: textarea
+    name: text
+    label: text
+- type: field_group
+  name: contact_sections
+  label: contact_sections
+  fields:
+  - type: field_group
+    name: home_base
+    label: home_base
+    fields:
+    - type: text
+      name: title
+      label: title
+  - type: field_group
+    name: email_us
+    label: email_us
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: before_number_text
+      label: before_number_text
+    - type: text
+      name: button_text
+      label: button_text
