@@ -33,24 +33,6 @@
     font-size: 18px !important;
     padding-top: 10px;
 }
-.lunch-break-areas {
-    background-image: url("/pageimg/facility-support.jpg");
-}
-.warehouse-storage {
-    background-image: url("/pageimg/warehouse_chemistry_industry_storage_tanks.jpg");
-}
-.construction-covers {
-    background-image: url("/pageimg/construction-covers.jpeg");
-}
-.extreme-weather {
-    background-image: url("/pageimg/extreme-weather.jpg");
-}
-.life-support-areas {
-    background-image: url("/pageimg/life-support-areas.jpg");
-}
-.event-spaces {
-    background-image: url("/pageimg/hero-homepage.jpg");
-}
 .facilities-support {
     background-image: url("/pageimg/facility-support.jpg");
 }
@@ -70,80 +52,28 @@
 
 <div class="flex flex-wrap items-start w-4/5 xl:w-9/12">
 
-<div id="lunch" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
+{{ range (where .Site.Pages "Type" "structures" ) }}
 
-    <div class="w-full bg-cover h-80 bg-no-repeat bg-center lunch-break-areas">
+<style>
+.structure-image-{{ .Params.name | lower | urlize }} {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.image }}");
+}
+</style>
+
+<div id="{{ .Params.name | lower | urlize }}" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
+
+    <div class="w-full bg-cover h-80 bg-no-repeat bg-center structure-image-{{ .Params.name | lower | urlize }}">
         <div class="py-20 md:py-24"></div>
     </div>
     <div class="w-full text-black lg:pr-8">
-        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-        <h2 class="font-titling text-2xl font-bold leading-none pb-3">Lunch and Break Areas</h2>
-        <p class="font-ibm text-base leading-normal pb-12 opacity-75">We can install lunch tents, break areas, and dining facilities on-site with cafeteria-style seating to serve 50 to 3,000+ people.</p>
+        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">Structures</h6>
+        <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Params.name | safeHTML }}</h2>
+        <p class="font-ibm text-base leading-normal pb-12 opacity-75">{{ .Params.text }}</p>
     </div>
 
 </div>
 
-<div id="warehouse" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom warehouse-storage">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Warehouse & Storage</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">A just-in-time warehouse solution for seasonal or overflow inventory, industrial storage, or temporary storage during the expansion of current facilities.</p>
-</div>
-
-</div>
-
-<div id="construction" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom construction-covers">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Construction Covers</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">A durable construction site cover to protect your work site, equipment, and workers from debris or weather customized to meet your exact needs.</p>
-</div>
-
-</div>
-<div id="extreme-weather" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom extreme-weather">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Extreme Weather</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">Ranco Response creates engineered, climate-controlled, fully lit work covers to keepcrews comfortable and projects on schedule.</p>
-</div>
-
-</div>
-<div id="life-support" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom life-support-areas">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Life Support Areas</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">We provide staffing, equipment, transportation, and support services to conduct self-contained, turn-key Logistics Support Area (LSA) operations.</p>
-</div>
-
-</div>
-<div id="event-spaces" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom event-spaces">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Event Spaces</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">Temporary infrastructure with the reliability, safety, and performance you would expect from a municipal system.</p>
-</div>
-
-</div>
+{{ end }}
 
 </div>
 
