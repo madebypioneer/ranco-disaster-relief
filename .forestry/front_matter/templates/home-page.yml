@@ -5,52 +5,59 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
   label: title
+  description: This MUST have a value.
 - type: text
   name: page-status
   label: page-status
+  hidden: true
 - type: file
   name: publish_image
   label: publish_image
+  hidden: true
 - type: textarea
   name: metaDescription
-  label: metaDescription
+  label: Meta Description
 - type: text
   name: hero_title
-  label: hero_title
+  label: Hero Title
 - type: textarea
   name: hero_paragraph
-  label: hero_paragraph
+  label: Hero Paragraph
 - type: boolean
   name: has_hero_button
-  label: has_hero_button
+  label: Has a Hero Button
 - type: text
   name: hero_button_link
-  label: hero_button_link
+  label: Hero Button Link
 - type: text
   name: hero_button_text
-  label: hero_button_text
+  label: Hero Button Text
 - type: file
   name: hero_image
-  label: hero_image
+  label: Hero Image
 - type: field_group
   name: capabilities_section
-  label: capabilities_section
+  label: Capabilities Section
   fields:
   - type: text
     name: vertical_title
-    label: vertical_title
+    label: vertical title
   - type: text
     name: title
     label: title
@@ -62,11 +69,11 @@ fields:
     label: text
 - type: field_group
   name: capabilities_slider
-  label: capabilities_slider
+  label: Capabilities Slider
   fields:
   - type: field_group
     name: first_slide
-    label: first_slide
+    label: first slide
     fields:
     - type: text
       name: title
@@ -76,16 +83,16 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
   - type: field_group
     name: second_slide
-    label: second_slide
+    label: Second Slide
     fields:
     - type: text
       name: title
@@ -95,16 +102,16 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
   - type: field_group
     name: third_slide
-    label: third_slide
+    label: Third Slide
     fields:
     - type: text
       name: title
@@ -114,10 +121,11 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
+  description: These are listed left to right.
