@@ -13,4 +13,28 @@ has_hero_button = true
 hero_button_link = "/contact-us/"
 hero_button_text = "Get a Quote"
 hero_image = "/v1576018358/Ranco%20Response/ranco-response-relief_fvrc4v.jpg"
+[capabilities_section]
+vertical_title = "Capabilities"
+title = "Executing Experience"
+subtitle = "Excellence and expertise"
+text = "Ranco Response combines the strengths, skills, and expertise of more than 35 yearsof proven field logistics successfully executing both planned and unplanned events. Whether it is supporting first responders in the wake of a disaster or enhancing the training of the military or ensuring safe, clean facilities for special events, Ranco Response has been there."
+[capabilities_slider]
+[capabilities_slider.first_slide]
+title = "Emergency Response"
+text = "Ranco Response, through code-compliant equipment ownership, proven processes modeled after National Incident Management System and Incident Command System, and accountability at all levels of the organization, stands ready to meet the demands of first responders."
+button_text = "Learn More"
+button_link = "/emergency-response/"
+image = "/v1576018356/Ranco%20Response/emergency-response_wwwadr.jpg"
+[capabilities_slider.second_slide]
+title = "Logistics Support"
+text = "Ranco Response augments the existing capabilities of both military and commercial entities. We deliver, setup, operate and maintain all of the equipment, allowing our customers to focus on their mission, whether it is a military training event or a business continuity situation or any enduring facility support mission, Ranco Response is there."
+button_text = "Learn More"
+button_link = "/logistics-support/"
+image = "/v1576018357/Ranco%20Response/logistics-support-page_snycle.jpg"
+[capabilities_slider.third_slide]
+title = "Event Support"
+text = "When little to no infrastructure is available to meet the demands of festival attendeesor other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population. All facilities and systems are assimilated into existing infrastructure and operated in accordance with all federal, state, and local guidelines with the safety of the attendees the number one priority."
+button_text = "Learn More"
+button_link = "/event-support/"
+image = "/v1576018357/Ranco%20Response/event-support-page_xfhgcy.jpg"
 +++

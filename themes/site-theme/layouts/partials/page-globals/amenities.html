@@ -7,84 +7,22 @@
     <p class="w-full font-ibm text-xl text-white leading-normal pb-4">Ranco Response own and maintains the full spectrum of components necessary for temporary facility support. Whether it is a turn-key base camp or wrap around components enhancing existing utilities, Ranco Response is prepared to assist in your readiness.</p>
     </div>
     <div class="flex flex-wrap w-full max-w-4xl pt-5 pb-24">
+        {{ range (where .Site.Pages "Type" "amenities" ) }}
         <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
             <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/power.jpg">
+                <img class="w-full h-40" src="{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.image }}">
                 <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
-                    <h4 class="font-titling text-2xl leading-none">Power</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75">We provide low emission, sound attenuated, trailerized, diesel powered units for when power is critical to the success of your mission.</p>
+                    <h4 class="font-titling text-2xl leading-none">{{ .Params.name }}</h4>
+                    <p class="font-ibm text-0 leading-tight opacity-75">{{ .Params.text }}</p>
                 </div>
             </div>
         </a>
+        {{ end }}
         <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
             <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/lighting.jpg">
-                <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
-                    <h4 class="font-titling text-2xl leading-none">Lighting</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75">Special lighting system options using any standard lighting system that eliminates shadows within your structure. Portable light sets available, too.</p>
-                </div>
-            </div>
-        </a>
-        <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
-            <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/hvac.jpg">
-                <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
-                    <h4 class="font-titling text-2xl leading-none">HVAC</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75">Climate-controlled environments with on-site power distribution, air conditioning, heating and ventilation for all tents and clearspan structures.</p>
-                </div>
-            </div>
-        </a>
-        <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
-            <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/kitchen.jpg">
-                <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
-                    <h4 class="font-titling text-2xl leading-none">Kitchens</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75">We provide a fully functioning, self-contained kitchen inside trailers or engineered, tented facilities.</p>
-                </div>
-            </div>
-        </a>
-        <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
-            <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/laundry.jpg">
-                <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
-                    <h4 class="font-titling text-2xl leading-none">Laundry</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75">Our clearspan tented structures are ideal for laundry facilities with raised flooring, lighting, doors, fire extinguishers, and exit signs.</p>
-                </div>
-            </div>
-        </a>
-        <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
-            <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/bathrooms.jpg">
-                <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
-                    <h4 class="font-titling text-2xl leading-none">Toilets</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75">We can equip any site with trailerized, flushable, climate-controlled toilet trailers in 3-stall, 5-stall, 6-stall, and 10-stall configurations.</p>
-                </div>
-            </div>
-        </a>
-        <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
-            <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/sinks.jpg">
-                <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
-                    <h4 class="font-titling text-2xl leading-none">Sinks</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75">We can equip any site with trailerized, climate-controlled sink trailers with hot and cold water and mirrors.</p>
-                </div>
-            </div>
-        </a>
-        <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
-            <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/hero-homepage.jpg">
-                <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
-                    <h4 class="font-titling text-2xl leading-none">Showers</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75">We can equip any site with trailerized, climate-controlled shower trailers with hot andcold water, mirrors, exhaust fans, and privacy areas.</p>
-                </div>
-            </div>
-        </a>
-        <a href="/amenities/" class="w-full md:w-1/2 lg:w-1/3 pb-8 pr-8 hover:cursor-pointer">
-            <div class="inline amenities-outer-box">
-                <img class="w-full h-40" src="/pageimg/other-amenities.jpg">
+                <img class="w-full h-40" src="{{ .Site.Params.tracking.cloudinary_url }}/v1576018357/Ranco%20Response/other-amenities_h59alx.jpg">
                 <div class="bg-white pt-6 pb-8 px-6 amenities-inner-box">
                     <h4 class="font-titling text-2xl leading-none">Others</h4>
-                    <p class="font-ibm text-0 leading-tight opacity-75"></p>
                 </div>
             </div>
         </a>

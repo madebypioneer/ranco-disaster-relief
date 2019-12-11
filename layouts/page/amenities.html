@@ -79,104 +79,44 @@
 
 <div class="flex flex-wrap items-start w-4/5 xl:w-9/12">
 
-<div id="power" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
+{{ range (where .Site.Pages "Type" "amenities" ) }}
 
-    <div class="w-full bg-cover h-80 bg-no-repeat bg-center power">
+<style>
+.amenity-image-{{ .Params.name | lower | urlize }} {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.image }}")
+}
+</style>
+
+<div id="{{ .Params.name | lower | urlize }}" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
+
+    <div class="w-full bg-cover h-80 bg-no-repeat bg-center amenity-image-{{ .Params.name | lower | urlize }}">
         <div class="py-20 md:py-24"></div>
     </div>
     <div class="w-full text-black lg:pr-8">
-        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-        <h2 class="font-titling text-2xl font-bold leading-none pb-3">Power</h2>
-        <p class="font-ibm text-base leading-normal pb-12 opacity-75">We provide low emission, sound attenuated, trailerized, diesel powered units for when power is critical to the success of your mission.</p>
+        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">amenities</h6>
+        <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Params.name }}</h2>
+        <p class="font-ibm text-base leading-normal pb-12 opacity-75">{{ .Params.text }}</p>
     </div>
 
 </div>
 
-<div id="lighting" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
+{{ end }}
 
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom lighting">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Lighting</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">Special lighting system options using any standard lighting system that eliminates shadows within your structure. Portable light sets available, too.</p>
-</div>
+<style>
+.amenity-image-others {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}/v1576018357/Ranco%20Response/other-amenities_h59alx.jpg")
+}
+</style>
 
-</div>
+<div id="others" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
 
-<div id="hvac" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom hvac">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">HVAC</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">Climate-controlled environments with on-site power distribution, air conditioning, heating and ventilation for all tents and clearspan structures.</p>
-</div>
-
-</div>
-<div id="kitchens" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom kitchens">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Kitchens</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">We provide a fully functioning, self-contained kitchen inside trailers or engineered, tented facilities.</p>
-</div>
-
-</div>
-<div id="laundry" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom laundry">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Laundry</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">Our clearspan tented structures are ideal for laundry facilities with raised flooring, lighting, doors, fire extinguishers, and exit signs.</p>
-</div>
-
-</div>
-<div id="toilets" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom toilets">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Toilets</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">We can equip any site with trailerized, flushable, climate-controlled toilet trailers in 3-stall, 5-stall, 6-stall, and 10-stall configurations.</p>
-</div>
-
-</div>
-
-<div id="sinks" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom sinks">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Sinks</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">We can equip any site with trailerized, climate-controlled sink trailers with hot and cold water and mirrors.</p>
-</div>
-
-</div>
-
-<div id="showers" class="flex flex-wrap w-full lg:w-1/2 items-start px-5">
-
-<div class="w-full bg-cover h-80 bg-no-repeat bg-bottom showers">
-    <div class="py-20 md:py-24"></div>
-</div>
-<div class="w-full text-black mr-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Showers</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">We can equip any site with trailerized, climate-controlled shower trailers with hot andcold water, mirrors, exhaust fans, and privacy areas.</p>
-</div>
+    <div class="w-full bg-cover h-80 bg-no-repeat bg-center amenity-image-others">
+        <div class="py-20 md:py-24"></div>
+    </div>
+    <div class="w-full text-black lg:pr-8">
+        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pt-5 pb-3">amenities</h6>
+        <h2 class="font-titling text-2xl font-bold leading-none pb-3">Others</h2>
+    </div>
 
 </div>
 
