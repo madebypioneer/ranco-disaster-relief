@@ -1,0 +1,279 @@
+---
+label: Global Data
+hide_body: true
+fields:
+- type: field_group
+  name: contact_numbers
+  label: contact_numbers
+  fields:
+  - type: text
+    name: phone
+    label: phone
+- type: field_group
+  name: logos
+  label: logos
+  fields:
+  - type: file
+    name: dark_logo
+    label: dark_logo
+  - type: file
+    name: logo
+    label: logo
+  - type: file
+    name: mobile_logo
+    label: mobile_logo
+- type: field_group
+  name: meta
+  label: meta
+  fields:
+  - type: textarea
+    name: description
+    label: description
+- type: field_group
+  name: email
+  label: email
+  fields:
+  - type: text
+    name: email
+    label: email
+- type: field_group
+  name: tracking
+  label: tracking
+  fields:
+  - type: text
+    name: google_analytics
+    label: google_analytics
+- type: field_group
+  name: address
+  label: address
+  fields:
+  - type: text
+    name: city
+    label: city
+  - type: text
+    name: state
+    label: state
+  - type: text
+    name: street
+    label: street
+  - type: number
+    name: zip
+    label: zip
+- type: field_group
+  name: amenities_bottom_sections
+  label: amenities_bottom_sections
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: vertical_title
+    label: vertical_title
+  - type: textarea
+    name: text
+    label: text
+- type: field_group
+  name: structures_bottom_sections
+  label: structures_bottom_sections
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: vertical_title
+    label: vertical_title
+  - type: textarea
+    name: text
+    label: text
+- type: field_group
+  name: capabilities_bottom_sections
+  label: capabilities_bottom_sections
+  fields:
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: vertical_title
+    label: vertical_title
+  - type: field_group
+    name: emergency_response
+    label: emergency_response
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: logistics_support
+    label: logistics_support
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: event_support
+    label: event_support
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: facilities_support
+    label: facilities_support
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: turnkey_camps
+    label: turnkey_camps
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+    - type: list
+      name: list_items
+      label: list_items
+  - type: field_group
+    name: tactical_operation_centers
+    label: tactical_operation_centers
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: business_continuity
+    label: business_continuity
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: lsa_support
+    label: lsa_support
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+- type: field_group
+  name: cta_before_footer_section
+  label: cta_before_footer_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: call_button
+    label: call_button
+    fields:
+    - type: text
+      name: button_text
+      label: button_text
+  - type: field_group
+    name: email_button
+    label: email_button
+    fields:
+    - type: text
+      name: button_text
+      label: button_text
