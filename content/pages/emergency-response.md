@@ -11,7 +11,5 @@ hero_title = "Emergency Response"
 hero_subtitle = "rapid READINESS and deployment"
 hero_paragraph = "Ranco Response, through code-compliant equipment ownership, proven processes modeled after National Incident Management System and Incident Command System, and accountability at all levels of the organization, stands ready to meet the demands of first responders."
 has_hero_button = false
-hero_button_link = ""
-hero_button_text = ""
 hero_image = "/v1576018356/Ranco%20Response/emergency-response_wwwadr.jpg"
 +++
