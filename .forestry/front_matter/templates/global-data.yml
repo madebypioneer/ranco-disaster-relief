@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group
   name: contact_numbers
-  label: contact_numbers
+  label: Contact Numbers
   fields:
   - type: text
     name: phone
@@ -15,13 +15,13 @@ fields:
   fields:
   - type: file
     name: dark_logo
-    label: dark_logo
+    label: dark logo
   - type: file
     name: logo
     label: logo
   - type: file
     name: mobile_logo
-    label: mobile_logo
+    label: mobile logo
 - type: field_group
   name: meta
   label: meta
@@ -42,7 +42,7 @@ fields:
   fields:
   - type: text
     name: google_analytics
-    label: google_analytics
+    label: google analytics
 - type: field_group
   name: address
   label: address
@@ -61,7 +61,7 @@ fields:
     label: zip
 - type: field_group
   name: amenities_bottom_sections
-  label: amenities_bottom_sections
+  label: Amenities Bottom Sections
   fields:
   - type: text
     name: title
@@ -71,13 +71,13 @@ fields:
     label: subtitle
   - type: text
     name: vertical_title
-    label: vertical_title
+    label: vertical title
   - type: textarea
     name: text
     label: text
 - type: field_group
   name: structures_bottom_sections
-  label: structures_bottom_sections
+  label: Structures Bottom Sections
   fields:
   - type: text
     name: title
@@ -87,23 +87,23 @@ fields:
     label: subtitle
   - type: text
     name: vertical_title
-    label: vertical_title
+    label: vertical title
   - type: textarea
     name: text
     label: text
 - type: field_group
   name: capabilities_bottom_sections
-  label: capabilities_bottom_sections
+  label: Capabilities Bottom Sections
   fields:
   - type: text
     name: subtitle
     label: subtitle
   - type: text
     name: vertical_title
-    label: vertical_title
+    label: vertical title
   - type: field_group
     name: emergency_response
-    label: emergency_response
+    label: emergency response
     fields:
     - type: text
       name: title
@@ -113,16 +113,16 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
   - type: field_group
     name: logistics_support
-    label: logistics_support
+    label: logistics support
     fields:
     - type: text
       name: title
@@ -132,16 +132,16 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
   - type: field_group
     name: event_support
-    label: event_support
+    label: event support
     fields:
     - type: text
       name: title
@@ -151,16 +151,16 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
   - type: field_group
     name: facilities_support
-    label: facilities_support
+    label: facilities support
     fields:
     - type: text
       name: title
@@ -170,16 +170,16 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
   - type: field_group
     name: turnkey_camps
-    label: turnkey_camps
+    label: turnkey camps
     fields:
     - type: text
       name: title
@@ -189,19 +189,19 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
     - type: list
       name: list_items
-      label: list_items
+      label: list items
   - type: field_group
     name: tactical_operation_centers
-    label: tactical_operation_centers
+    label: tactical operation centers
     fields:
     - type: text
       name: title
@@ -211,16 +211,16 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
   - type: field_group
     name: business_continuity
-    label: business_continuity
+    label: business continuity
     fields:
     - type: text
       name: title
@@ -230,16 +230,16 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
   - type: field_group
     name: lsa_support
-    label: lsa_support
+    label: lsa support
     fields:
     - type: text
       name: title
@@ -249,31 +249,31 @@ fields:
       label: text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
     - type: text
       name: button_link
-      label: button_link
+      label: button link
     - type: file
       name: image
       label: image
 - type: field_group
   name: cta_before_footer_section
-  label: cta_before_footer_section
+  label: cta before footer section
   fields:
   - type: text
     name: title
     label: title
   - type: field_group
     name: call_button
-    label: call_button
+    label: call button
     fields:
     - type: text
       name: button_text
-      label: button_text
+      label: button text
   - type: field_group
     name: email_button
-    label: email_button
+    label: email button
     fields:
     - type: text
       name: button_text
-      label: button_text
+      label: button text
