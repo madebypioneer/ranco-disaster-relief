@@ -11,6 +11,12 @@ sections:
   match: "**/*"
   exclude: _index.md
 - type: directory
+  path: content/capabilities
+  label: Capabilities (Detailed)
+  create: all
+  match: "**/*"
+  exclude: _index.md
+- type: directory
   path: content
   label: Pages
   create: all
