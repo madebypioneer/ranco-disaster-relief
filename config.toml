@@ -116,34 +116,172 @@ enableRobotsTXT = true
     [[menu.footer]]
         identifier = "Facilities Support 1"
         name = "Facilities Support"
-        url = "/structures/"
+        url = "/facilities-support/"
         parent = "Logistics Support"
         weight = 1
+    [[menu.footer]]
+        identifier = "Turn-key Camps 1"
+        name = "Turn-key Camps"
+        url = "/turnkey-camps/"
+        parent = "Logistics Support"
+        weight = 2
+    [[menu.footer]]
+        identifier = "Tactical Operations Center 1"
+        name = "Tactical Operations Center"
+        url = "/tactical-operations-centers/"
+        parent = "Logistics Support"
+        weight = 3
+    [[menu.footer]]
+        identifier = "Business Continuity 1"
+        name = "Business Continuity"
+        url = "/business-continuity/"
+        parent = "Logistics Support"
+        weight = 4
+    [[menu.footer]]
+        identifier = "LSA Support 1"
+        name = "LSA Support"
+        url = "/lsa-support/"
+        parent = "Logistics Support"
+        weight = 5
+    [[menu.footer]]
+        identifier = "Tents / Shelters 1"
+        name = "Tents / Shelters"
+        url = "/structures/"
+        parent = "Logistics Support"
+        weight = 6
 [[menu.footer]]
-    identifier = "event-support"
+    identifier = "Event Support"
     name = "Event Support"
-    url = "/event-support/"
     weight = 3
+    [[menu.footer]]
+        identifier = "Facilities Support 2"
+        name = "Facilities Support"
+        url = "/facilities-support/"
+        parent = "Event Support"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Turn-key Camps 2"
+        name = "Turn-key Camps"
+        url = "/turnkey-camps/"
+        parent = "Event Support"
+        weight = 2
+    [[menu.footer]]
+        identifier = "Tactical Operations Center 2"
+        name = "Tactical Operations Center"
+        url = "/tactical-operations-centers/"
+        parent = "Event Support"
+        weight = 3
+    [[menu.footer]]
+        identifier = "Business Continuity 2"
+        name = "Business Continuity"
+        url = "/business-continuity/"
+        parent = "Event Support"
+        weight = 4
+    [[menu.footer]]
+        identifier = "LSA Support 2"
+        name = "LSA Support"
+        url = "/lsa-support/"
+        parent = "Event Support"
+        weight = 5
+    [[menu.footer]]
+        identifier = "Tents / Shelters 2"
+        name = "Tents / Shelters"
+        url = "/structures/"
+        parent = "Event Support"
+        weight = 6
 [[menu.footer]]
-    identifier = "structures"
+    identifier = "Structures"
     name = "Structures"
     url = "/structures/"
     weight = 4
+    [[menu.footer]]
+        identifier = "Lunch & Break Areas"
+        name = "Lunch & Break Areas"
+        url = "/structures/#lunch-and-break-areas"
+        parent = "Structures"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Warehouse & Storage"
+        name = "Warehouse & Storage"
+        url = "/structures/#warehouse-storage"
+        parent = "Structures"
+        weight = 2
+    [[menu.footer]]
+        identifier = "Construction & Maintainance"
+        name = "Construction & Maintainance"
+        url = "/structures/#construction-covers"
+        parent = "Structures"
+        weight = 3
+    [[menu.footer]]
+        identifier = "Extreme Weather"
+        name = "Extreme Weather"
+        url = "/structures/#extreme-weather"
+        parent = "Structures"
+        weight = 4
+    [[menu.footer]]
+        identifier = "Life Support Areas"
+        name = "Life Support Areas"
+        url = "/structures/#life-support-areas"
+        parent = "Structures"
+        weight = 5
+    [[menu.footer]]
+        identifier = "Event Spaces"
+        name = "Event Spaces"
+        url = "/structures/#event-br-spaces"
+        parent = "Structures"
+        weight = 6
 [[menu.footer]]
-    identifier = "amenities"
+    identifier = "Amenities"
     name = "Amenities"
-    url = "/amenities/"
     weight = 5
-[[menu.footer]]
-    identifier = "about-us"
-    name = "About Us"
-    url = "/about-us/"
-    weight = 6
-[[menu.footer]]
-    identifier = "contact-us"
-    name = "Contact Us"
-    url = "/contact-us/"
-    weight = 7
+    [[menu.footer]]
+        identifier = "Power"
+        name = "Power"
+        url = "/amenities/#power"
+        parent = "Amenities"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Lighting"
+        name = "Lighting"
+        url = "/amenities/#lighting"
+        parent = "Amenities"
+        weight = 2
+    [[menu.footer]]
+        identifier = "HVAC & Dehumidification"
+        name = "HVAC & Dehumidification"
+        url = "/amenities/#hvac"
+        parent = "Amenities"
+        weight = 3
+    [[menu.footer]]
+        identifier = "Kitchens"
+        name = "Kitchens"
+        url = "/amenities/#kitchens"
+        parent = "Amenities"
+        weight = 4
+    [[menu.footer]]
+        identifier = "Laundry"
+        name = "Laundry"
+        url = "/amenities/#laundry"
+        parent = "Amenities"
+        weight = 5
+    [[menu.footer]]
+        identifier = "Toilets"
+        name = "Toilets"
+        url = "/amenities/#toilets"
+        parent = "Amenities"
+        weight = 6
+    [[menu.footer]]
+        identifier = "Sinks"
+        name = "Sinks"
+        url = "/amenities/#sinks"
+        parent = "Amenities"
+        weight = 7
+    [[menu.footer]]
+        identifier = "Showers"
+        name = "Showers"
+        url = "/amenities/#showers"
+        parent = "Amenities"
+        weight = 8
 [params.utilityImages]
     thankyouBackground = ""
 [params.tracking]

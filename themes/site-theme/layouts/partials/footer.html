@@ -8,66 +8,20 @@
 </style>
 
 <footer id="footer" class="flex flex-wrap bg-color-E6E6E6 py-8 lg:px-24">
-  <div class="w-5/6 sm:w-1/3 md:w-1/4 lg:w-1/5 pb-8 lg:pb-0 px-5 mx-auto">
-    {{ $currentNode := . }}
+  {{ $currentNode := . }}
     {{ range .Site.Menus.footer }}
       {{ if .HasChildren }}
-        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-2">{{ .Name }}</h6>
-        <ul class="font-ibm text-color-262626 text-base md:text-sm" role="menu">
-          {{ range .Children }}
-            <li><a href="{{.URL}}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
+        <div class="w-5/6 sm:w-1/3 md:w-1/4 lg:w-1/5 pb-8 lg:pb-0 px-5 mx-auto">
+              <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-2">{{ .Name }}</h6>
+              <ul class="font-ibm text-color-262626 text-base md:text-sm" role="menu">
+                {{ range .Children }}
+                  <li><a href="{{.URL}}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+        </div>
       {{ else }}
       {{ end }}
     {{ end }}
-  </div>
-  <div class="w-5/6 sm:w-1/3 md:w-1/4 lg:w-1/5 pb-8 lg:pb-0 px-5 mx-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-2">Logistics Support</h6>
-    <ul class="font-ibm text-color-262626 text-base md:text-sm">
-      <li><a href="/facilities-support/">Facilities Support</a></li>
-      <li><a href="/turnkey-camps/">Turn-key Camps</a></li>
-      <li><a href="/tactical-operations-centers/">Tactical Operations Center</a></li>
-      <li><a href="/business-continuity/">Business Continuity</a></li>
-      <li><a href="/lsa-support/">LSA Support</a></li>
-      <li><a href="/structures/">Tents / Shelters</a></li>
-    </ul>
-  </div>
-  <div class="w-5/6 sm:w-1/3 md:w-1/4 lg:w-1/5 pb-8 lg:pb-0 px-5 mx-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-2">Event Support</h6>
-    <ul class="font-ibm text-color-262626 text-base md:text-sm">
-      <li><a href="/facilities-support/">Facilities Support</a></li>
-      <li><a href="/turnkey-camps/">Turn-key Camps</a></li>
-      <li><a href="/tactical-operations-centers/">Tactical Operations Center</a></li>
-      <li><a href="/business-continuity/">Business Continuity</a></li>
-      <li><a href="/lsa-support/">LSA Support</a></li>
-      <li><a href="/structures/">Tents / Shelters</a></li>
-    </ul>
-  </div>
-  <div class="w-5/6 sm:w-1/3 md:w-1/4 lg:w-1/5 pb-8 lg:pb-0 px-5 mx-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-2">Structures</h6>
-    <ul class="font-ibm text-color-262626 text-base md:text-sm">
-      <li><a href="/structures/#lunch">Lunch & Break Areas</a></li>
-      <li><a href="/structures/#warehouse">Warehouse & Storage</a></li>
-      <li><a href="/structures/#construction">Construction & Maintainance</a></li>
-      <li><a href="/structures/#extreme-weather">Extreme Weather</a></li>
-      <li><a href="/structures/#life-support">Life Support Areas</a></li>
-      <li><a href="/structures/#event-spaces">Event Spaces</a></li>
-    </ul>
-  </div>
-  <div class="w-5/6 sm:w-1/3 md:w-1/4 lg:w-1/5 pb-8 lg:pb-0 px-5 mx-auto">
-    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-2">Amenities</h6>
-    <ul class="font-ibm text-color-262626 text-base md:text-sm">
-      <li><a href="/amenities/#power">Power</a></li>
-      <li><a href="/amenities/#lighting">Lighting</a></li>
-      <li><a href="/amenities/#hvac">HVAC & Dehumidification</a></li>
-      <li><a href="/amenities/#kitchens">Kitchens</a></li>
-      <li><a href="/amenities/#laundry">Laundry</a></li>
-      <li><a href="/amenities/#toilets">Toilets</a></li>
-      <li><a href="/amenities/#sinks">Sinks</a></li>
-      <li><a href="/amenities/#showers">Showers</a></li>
-    </ul>
-  </div>
   <div class="flex flex-wrap items-center w-full pt-16">
     <div class="w-full lg:w-1/3 text-center pb-8 lg:pb-0 opacity-50">
       <p class="font-ibm text-xs text-color-333333">Copyright &copy; {{ dateFormat "2006" now }} {{ .Site.Title }} | All Rights Reserved.</p>
