@@ -24,7 +24,7 @@ sections:
   exclude: _index.md
 - type: directory
   path: content
-  label: Pages
+  label: Homepage
   create: all
   match: "*"
 - type: directory
@@ -32,11 +32,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-- type: directory
-  path: content/post
-  label: Post
-  create: all
-  match: "**/*"
+  exclude: thank-you.md
 upload_dir: Ranco Response
 public_path: ''
 front_matter_path: ''
