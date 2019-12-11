@@ -1,0 +1,31 @@
+---
+label: Capabilities (Detailed)
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page-status
+  label: page-status
+- type: file
+  name: publish_image
+  label: publish_image
+- type: textarea
+  name: metaDescription
+  label: metaDescription
+- type: file
+  name: top_image
+  label: top_image
