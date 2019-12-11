@@ -129,3 +129,5 @@ fields:
       name: image
       label: image
   description: These are listed left to right.
+pages:
+- content/_index.md
