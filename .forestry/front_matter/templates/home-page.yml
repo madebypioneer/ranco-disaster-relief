@@ -1,0 +1,123 @@
+---
+label: Home Page
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page-status
+  label: page-status
+- type: file
+  name: publish_image
+  label: publish_image
+- type: textarea
+  name: metaDescription
+  label: metaDescription
+- type: text
+  name: hero_title
+  label: hero_title
+- type: textarea
+  name: hero_paragraph
+  label: hero_paragraph
+- type: boolean
+  name: has_hero_button
+  label: has_hero_button
+- type: text
+  name: hero_button_link
+  label: hero_button_link
+- type: text
+  name: hero_button_text
+  label: hero_button_text
+- type: file
+  name: hero_image
+  label: hero_image
+- type: field_group
+  name: capabilities_section
+  label: capabilities_section
+  fields:
+  - type: text
+    name: vertical_title
+    label: vertical_title
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: textarea
+    name: text
+    label: text
+- type: field_group
+  name: capabilities_slider
+  label: capabilities_slider
+  fields:
+  - type: field_group
+    name: first_slide
+    label: first_slide
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: second_slide
+    label: second_slide
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: third_slide
+    label: third_slide
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+    - type: file
+      name: image
+      label: image
