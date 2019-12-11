@@ -5,23 +5,30 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: false
+  description: This MUST have a value.
 - type: text
   name: page-status
   label: page-status
+  hidden: true
 - type: file
   name: publish_image
   label: publish_image
+  hidden: true
 - type: textarea
   name: metaDescription
-  label: metaDescription
+  label: Meta Description
 - type: file
   name: top_image
-  label: top_image
+  label: Top Image
+  description: The image at the top of the page.
 pages:
 - content/capabilities/emergency-response.md
