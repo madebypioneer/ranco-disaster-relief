@@ -1,0 +1,43 @@
+---
+label: Pages
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page-status
+  label: page-status
+- type: file
+  name: publish_image
+  label: publish_image
+- type: textarea
+  name: metaDescription
+  label: metaDescription
+- type: text
+  name: hero_title
+  label: hero_title
+- type: text
+  name: hero_subtitle
+  label: hero_subtitle
+- type: textarea
+  name: hero_paragraph
+  label: hero_paragraph
+- type: boolean
+  name: has_hero_button
+  label: has_hero_button
+- type: file
+  name: hero_image
+  label: hero_image
