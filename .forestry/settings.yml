@@ -36,7 +36,6 @@ sections:
 - type: document
   path: themes/site-theme/data/global_data.toml
   label: Global Data
-  match: "**/*"
 upload_dir: Ranco Response
 public_path: ''
 front_matter_path: ''
