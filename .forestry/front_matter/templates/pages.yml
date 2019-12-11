@@ -50,5 +50,6 @@ fields:
   label: Hero Image
 pages:
 - content/pages/about-us.md
+- content/pages/logistics-support.md
 - content/pages/event-support.md
 - content/pages/emergency-response.md
