@@ -5,30 +5,37 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
   label: title
+  description: This MUST have a value.
 - type: text
   name: page-status
   label: page-status
+  hidden: true
 - type: file
   name: publish_image
   label: publish_image
+  hidden: true
 - type: textarea
   name: metaDescription
-  label: metaDescription
+  label: Meta Description
 - type: field_group
   name: top_section
-  label: top_section
+  label: Top Section
   fields:
   - type: text
     name: title
@@ -41,25 +48,25 @@ fields:
     label: text
 - type: field_group
   name: contact_sections
-  label: contact_sections
+  label: Contact Sections
   fields:
   - type: field_group
     name: home_base
-    label: home_base
+    label: Home Base
     fields:
     - type: text
       name: title
       label: title
   - type: field_group
     name: email_us
-    label: email_us
+    label: Email Us
     fields:
     - type: text
       name: title
       label: title
     - type: text
       name: before_number_text
-      label: before_number_text
+      label: before number text
     - type: text
       name: button_text
-      label: button_text
+      label: button text
