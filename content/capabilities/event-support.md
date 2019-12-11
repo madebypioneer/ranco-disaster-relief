@@ -1,7 +1,5 @@
 +++
 date = "2019-04-24T05:00:00+00:00"
-type = "post"
-layout = "subpage"
 url = "/event-support/more-info/"
 title = "Event Support"
 page-status = "event-support-subpage"

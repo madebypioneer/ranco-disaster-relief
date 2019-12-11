@@ -15,3 +15,53 @@ city = "Statesboro"
 state = "GA"
 street = "P.O. Box 461"
 zip = 30459
+[capabilities_bottom_sections]
+[capabilities_bottom_sections.emergency_response]
+title = "Emergency Response"
+text = "Ranco Response augments the existing capabilities of both military and commercial entities. We deliver, setup, operate and maintain all of the equipment, allowing our customers to focus on their mission, whether it is a military training event or a business continuity situation or any enduring facility support mission, Ranco Response is there."
+button_text = "See Our Capabilities"
+button_link = "/emergency-response/more-info/"
+image = "/v1576018357/Ranco%20Response/emergency-response_oiv7p2.jpg"
+[capabilities_bottom_sections.logistics_support]
+title = "Logistics Support"
+text = "Ranco Response augments the existing capabilities of both military and commercial entities. We deliver, setup, operate and maintain all of the equipment, allowing our customers to focus on their mission, whether it is a military training event or a business continuity situation or any enduring facility support mission, Ranco Response is there."
+button_text = "See Our Capabilities"
+button_link = "/logistics-support/more-info/"
+image = "/v1576018358/Ranco%20Response/turn-key-camps_er7gg1.jpg"
+[capabilities_bottom_sections.event_support]
+title = "Event Support"
+text = "When little to no infrastructure is available to meet the demands of festival attendees or other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population. All facilities and systems are assimilated into existing infrastructure and operated in accordance with all federal, state, and local guidelines with the safety of the attendees the number one priority."
+button_text = "See Our Capabilities"
+button_link = "/event-support/more-info/"
+image = "/v1576018358/Ranco%20Response/Tactical_Operation_Centers_i60hnc.jpg"
+[capabilities_bottom_sections.facilities_support]
+title = "Facilities Support"
+text = "Ranco Response provides janitorial, maintenance, trash disposal, security guards and services, mail routing, reception, laundry, and other related services to support operations to both government-owned and contractor-owned facilities. With a focus on safety, efficiency, sustainability, and quality, Ranco Response maintains the infrastructure in proper operating conditions through routine, preventative maintenance and safety checks, helping to prevent operational failure, reducing operating costs and allowing occupants to focus on their core mission."
+button_text = "See Our Capabilities"
+button_link = "/facilities-support/"
+image = "/v1576018357/Ranco%20Response/emergency-response_oiv7p2.jpg"
+[capabilities_bottom_sections.turnkey_camps]
+title = "Turn-key Camps"
+text = "Relocations or displacements needing life support areas can be due to natural disasters, civil disruptions, migrant populations, mass gatherings, or military maneuvers. All, portions, or single items of this list comprising a turn-key Base Camp can be provided for short or long durations:"
+button_text = "See Our Capabilities"
+button_link = "/turnkey-camps/"
+image = "/v1576018358/Ranco%20Response/turn-key-camps_er7gg1.jpg"
+list_items = ["Engineered Soft Wall Structures", "Temporary Power and HVAC", "Food Service", "Water System", "Showers, Toilets, Laundry, and Hygiene Facilities", "Morale Welfare and Recreation (MWR) Facilities", "Medical Facilities", "Security"]
+[capabilities_bottom_sections.tactical_operation_centers]
+title = "Tactical Operation Centers"
+text = "Tactical Operation Centers can be provided in the form of climate-controlled clear-span structures complete with sidewalls, doors, wood flooring, lighting, exit signs, fireextinguishers, and HVAC. Tents are sized based on client requirements and range from 500 square feet to 30,000 square feet."
+button_text = "See Our Capabilities"
+button_link = "/tactical-operations-centers/"
+image = "/v1576018358/Ranco%20Response/Tactical_Operation_Centers_i60hnc.jpg"
+[capabilities_bottom_sections.business_continuity]
+title = "Business Continuity"
+text = "Ranco Response has extensive experience providing code compliant facilities to satisfy disruptions to ongoing operations. These OSHA compliant facilities support disaster response, temporary functional space during renovations or work continuation services, and turnaround/shutdown support.Our solutions are rapidly deployable, nationally based, modular, and scalable so they can fit where needed and support your specific needs. The equipment can support all facets of business including retail, pharmacy, grocery, office, convenience store, staff accommodations,and more."
+button_text = "See Our Capabilities"
+button_link = "/business-continuity/"
+image = "/v1576018356/Ranco%20Response/business-continuity-build-solution_n2rtwi.jpg"
+[capabilities_bottom_sections.lsa_support]
+title = "LSA Support"
+text = "Our services range from full-service turnkey base camps and FOB support to the provision of any single component which can be used independently to augment existing facilities such as kitchens or barracks. We provide staffing, equipment, transportation, and support services to conduct self-contained turnkey Logistics Staging Area (LSA) operations to receive bulk resources of shelf stable meals, bottled water, bagged ice, and tarps or other accountable and/or expendable supplies from federal, state, or vendor resources. We will account for and distribute bulk resources to designated county points of distribution at the direction of the client."
+button_text = "See Our Capabilities"
+button_link = "/lsa-support/"
+image = "/v1576018357/Ranco%20Response/LSA_Support_yrld5f.jpg"

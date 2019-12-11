@@ -1,3 +1,21 @@
+<style>
+.facilities-support-bottom {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Site.Data.global_data.capabilities_bottom_sections.facilities_support.image }}");
+}
+.turn-key-camps-bottom {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Site.Data.global_data.capabilities_bottom_sections.turnkey_camps.image }}");
+}
+.tactical-operation-centers-bottom {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Site.Data.global_data.capabilities_bottom_sections.tactical_operation_centers.image }}");
+}
+.business-continuity-bottom {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Site.Data.global_data.capabilities_bottom_sections.business_continuity.image }}");
+}
+.lsa-support-bottom {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Site.Data.global_data.capabilities_bottom_sections.lsa_support.image }}");
+}
+</style>
+
 <section id="capabilities" class="relative flex flex-wrap bg-color-F0F0F0 py-24 md:px-12 lg:px-24">
 
 <div id="capabilitiesTitle" class="w-1/6">
@@ -10,13 +28,13 @@
 
     <div class="w-full xl:w-1/3 text-black lg:pr-8">
         <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">{{ .Title }}</h6>
-        <h2 class="font-titling text-2xl font-bold leading-none pb-3">Facilities Support</h2>
-        <p class="font-ibm text-base leading-normal pb-6 opacity-75">Ranco Response provides janitorial, maintenance, trash disposal, security guards and services, mail routing, reception, laundry, and other related services to support operations to both government-owned and contractor-owned facilities. With a focus on safety, efficiency, sustainability, and quality, Ranco Response maintains the infrastructure in proper operating conditions through routine, preventative maintenance and safety checks, helping to prevent operational failure, reducing operating costs and allowing occupants to focus on their core mission.</p>
-        <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='/facilities-support/'>
+        <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Site.Data.global_data.capabilities_bottom_sections.facilities_support.title }}</h2>
+        <p class="font-ibm text-base leading-normal pb-6 opacity-75">{{ .Site.Data.global_data.capabilities_bottom_sections.facilities_support.text }}</p>
+        <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='{{ .Site.Data.global_data.capabilities_bottom_sections.facilities_support.button_link }}'>
             <span class="font-titling text-2xs text-white tracking-widest uppercase">See Our Capabilities</span>
         </a>
     </div>
-    <div class="w-full xl:w-2/3 bg-cover bg-no-repeat bg-center mb-12 facilities-support">
+    <div class="w-full xl:w-2/3 bg-cover bg-no-repeat bg-center mb-12 facilities-support-bottom">
         <div class="py-20 md:py-56"></div>
     </div>
 
@@ -26,23 +44,20 @@
 
 <div class="w-full lg:w-2/5 text-black mr-auto lg:pl-8">
     <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Turn-key Camps</h2>
-    <p class="font-ibm text-base leading-normal pb-3 opacity-75">Relocations or displacements needing life support areas can be due to natural disasters, civil disruptions, migrant populations, mass gatherings, or military maneuvers. All, portions, or single items of this list comprising a turn-key Base Camp can be provided for short or long durations:</p>
+    <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Site.Data.global_data.capabilities_bottom_sections.turnkey_camps.title }}</h2>
+    <p class="font-ibm text-base leading-normal pb-3 opacity-75">{{ .Site.Data.global_data.capabilities_bottom_sections.turnkey_camps.text }}</p>
+    {{ if .Site.Data.global_data.capabilities_bottom_sections.turnkey_camps.list_items }}
     <ul class="font-ibm text-sm list-inside list-disc pb-12 opacity-75">
-        <li>Engineered Soft Wall Structures</li>
-        <li>Temporary Power and HVAC</li>
-        <li>Food Service</li>
-        <li>Water System</li>
-        <li>Showers, Toilets, Laundry, and Hygiene Facilities</li>
-        <li>Morale Welfare and Recreation (MWR) Facilities</li>
-        <li>Medical Facilities</li>
-        <li>Security</li>
+        {{ range .Site.Data.global_data.capabilities_bottom_sections.turnkey_camps.list_items }}
+        <li>{{ . }}</li>
+        {{ end }}
     </ul>
-    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='/turnkey-camps/'>
-        <span class="font-titling text-2xs text-white tracking-widest uppercase">See Our Capabilities</span>
+    {{ else }}{{ end }}
+    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='{{ .Site.Data.global_data.capabilities_bottom_sections.turnkey_camps.button_link }}'>
+        <span class="font-titling text-2xs text-white tracking-widest uppercase">{{ .Site.Data.global_data.capabilities_bottom_sections.turnkey_camps.button_text }}</span>
     </a>
 </div>
-<div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-bottom mb-12 turn-key-camps">
+<div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-bottom mb-12 turn-key-camps-bottom">
     <div class="py-20 md:py-56"></div>
 </div>
 
@@ -52,13 +67,13 @@
 
     <div class="w-full lg:w-2/5 text-black lg:pr-8">
         <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">{{ .Title }}</h6>
-        <h2 class="font-titling text-2xl font-bold leading-none pb-3">Tactical Operation Centers</h2>
-        <p class="font-ibm text-base leading-normal pb-12 opacity-75">Tactical Operation Centers can be provided in the form of climate-controlled clear-span structures complete with sidewalls, doors, wood flooring, lighting, exit signs, fireextinguishers, and HVAC. Tents are sized based on client requirements and range from 500 square feet to 30,000 square feet.</p>
-        <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='/tactical-operations-centers/'>
-            <span class="font-titling text-2xs text-white tracking-widest uppercase">See Our Capabilities</span>
+        <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Site.Data.global_data.capabilities_bottom_sections.tactical_operation_centers.title }}</h2>
+        <p class="font-ibm text-base leading-normal pb-12 opacity-75">{{ .Site.Data.global_data.capabilities_bottom_sections.tactical_operation_centers.text }}</p>
+        <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='{{ .Site.Data.global_data.capabilities_bottom_sections.tactical_operation_centers.button_link }}'>
+            <span class="font-titling text-2xs text-white tracking-widest uppercase">{{ .Site.Data.global_data.capabilities_bottom_sections.tactical_operation_centers.button_text }}</span>
         </a>
     </div>
-    <div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-center mb-12 tactical-operation-centers">
+    <div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-center mb-12 tactical-operation-centers-bottom">
         <div class="py-20 md:py-56"></div>
     </div>
 
@@ -68,13 +83,13 @@
 
 <div class="w-full lg:w-2/5 text-black mr-auto lg:pl-8">
     <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">{{ .Title }}</h6>
-    <h2 class="font-titling text-2xl font-bold leading-none pb-3">Business Continuity</h2>
-    <p class="font-ibm text-base leading-normal pb-12 opacity-75">Ranco Response has extensive experience providing code compliant facilities to satisfy disruptions to ongoing operations. These OSHA compliant facilities support disaster response, temporary functional space during renovations or work continuation services, and turnaround/shutdown support.Our solutions are rapidly deployable, nationally based, modular, and scalable so they can fit where needed and support your specific needs. The equipment can support all facets of business including retail, pharmacy, grocery, office, convenience store, staff accommodations,and more.</p>
-    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='/business-continuity/'>
-        <span class="font-titling text-2xs text-white tracking-widest uppercase">See Our Capabilities</span>
+    <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Site.Data.global_data.capabilities_bottom_sections.business_continuity.title }}</h2>
+    <p class="font-ibm text-base leading-normal pb-12 opacity-75">{{ .Site.Data.global_data.capabilities_bottom_sections.business_continuity.text }}</p>
+    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='{{ .Site.Data.global_data.capabilities_bottom_sections.business_continuity.button_link }}'>
+        <span class="font-titling text-2xs text-white tracking-widest uppercase">{{ .Site.Data.global_data.capabilities_bottom_sections.business_continuity.button_text }}</span>
     </a>
 </div>
-<div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-center mb-12 business-continuity">
+<div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-center mb-12 business-continuity-bottom">
     <div class="py-20 md:py-56"></div>
 </div>
 
@@ -84,13 +99,13 @@
 
     <div class="w-full lg:w-2/5 text-black lg:pr-8">
         <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">{{ .Title }}</h6>
-        <h2 class="font-titling text-2xl font-bold leading-none pb-3">LSA Support</h2>
-        <p class="font-ibm text-base leading-normal pb-12 opacity-75">Our services range from full-service turnkey base camps and FOB support to the provision of any single component which can be used independently to augment existing facilities such as kitchens or barracks. We provide staffing, equipment, transportation, and support services to conduct self-contained turnkey Logistics Staging Area (LSA) operations to receive bulk resources of shelf stable meals, bottled water, bagged ice, and tarps or other accountable and/or expendable supplies from federal, state, or vendor resources. We will account for and distribute bulk resources to designated county points of distribution at the direction of the client.</p>
-        <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='/lsa-support/'>
-            <span class="font-titling text-2xs text-white tracking-widest uppercase">See Our Capabilities</span>
+        <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Site.Data.global_data.capabilities_bottom_sections.lsa_support.title }}</h2>
+        <p class="font-ibm text-base leading-normal pb-12 opacity-75">{{ .Site.Data.global_data.capabilities_bottom_sections.lsa_support.text }}</p>
+        <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href='{{ .Site.Data.global_data.capabilities_bottom_sections.lsa_support.button_link }}'>
+            <span class="font-titling text-2xs text-white tracking-widest uppercase">{{ .Site.Data.global_data.capabilities_bottom_sections.lsa_support.button_text }}</span>
         </a>
     </div>
-    <div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-center mb-12 lsa-support">
+    <div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-center mb-12 lsa-support-bottom">
         <div class="py-20 md:py-56"></div>
     </div>
 
