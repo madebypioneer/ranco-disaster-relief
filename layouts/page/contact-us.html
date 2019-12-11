@@ -36,21 +36,6 @@
     font-size: 18px !important;
     padding-top: 10px;
 }
-.facilities-support {
-    background-image: url("/pageimg/facility-support.jpg");
-}
-.turn-key-camps {
-    background-image: url("/pageimg/turn-key-camps.jpg");
-}
-.tactical-operation-centers {
-    background-image: url("/pageimg/Tactical Operation Centers.jpg");
-}
-.business-continuity {
-    background-image: url("/pageimg/business-continuity-build-solution.jpg");
-}
-.lsa-support {
-    background-image: url("/pageimg/LSA Support.jpg");
-}
 </style>
 
 <section id="structures" class="relative flex flex-wrap py-24 bg-white">
@@ -60,18 +45,18 @@
 <div class="flex flex-wrap items-center">
 
     <div class="flex flex-wrap w-full lg:w-1/2 text-black lg:pr-12">
-        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">Emergency Response</h6>
-        <h2 class="font-titling text-2xl font-bold leading-none pb-3">Facilities Support</h2>
-        <p class="font-ibm text-base leading-normal pb-12">When time is of the essence, Ranco Response specializes in rapidly deploying fully-functioning facilities and resources to support natural disasters, civil disruptions, migrant populations, mass gatherings, or military operations. When time is of the essence, Ranco Response specializes in rapidly deploying fully-functioning facilities and resources to support natural disasters, civil disruptions, migrant populations, mass gatherings, or military operations.</p>
+        <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">{{ .Page.Params.top_section.subtitle }}</h6>
+        <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Page.Params.top_section.title }}</h2>
+        <p class="font-ibm text-base leading-normal pb-12">{{ .Page.Params.top_section.text }}</p>
         <div class="w-1/2">
-            <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Home Base</h6>
+            <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">{{ .Page.Params.contact_sections.home_base.title }}</h6>
             <p class="font-ibm text-base leading-normal">{{ .Site.Data.global_data.address.street }}</p>
             <p class="font-ibm text-base leading-normal pb-12">{{ .Site.Data.global_data.address.city }}, {{ .Site.Data.global_data.address.state }}. {{ .Site.Data.global_data.address.zip }}</p>
         </div>
         <div class="w-1/2">
-            <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Reach Out</h6>
-            <p class="font-ibm text-base leading-normal">Phone 1+ {{ .Site.Data.global_data.contact_numbers.phone }}</p>
-            <a href="mailto:{{ .Site.Data.global_data.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">Email Us</a>
+            <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">{{ .Page.Params.contact_sections.email_us.title }}</h6>
+            <p class="font-ibm text-base leading-normal">{{ .Page.Params.contact_sections.email_us.before_number_text }} {{ .Site.Data.global_data.contact_numbers.phone }}</p>
+            <a href="mailto:{{ .Site.Data.global_data.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">{{ .Page.Params.contact_sections.email_us.button_text }}</a>
         </div>
     </div>
     <div class="flex flex-wrap w-full lg:w-1/2">

@@ -5,70 +5,145 @@ title = "Ranco Response"
 enableRobotsTXT = true
 
 [[menu.desktop]]
-    identifier = "emergency-response"
+    identifier = "Emergency Response"
     name = "Emergency Response"
     url = "/emergency-response/"
     weight = 1
 [[menu.desktop]]
-    identifier = "logistics-support"
+    identifier = "Logistics Support"
     name = "Logistics Support"
     url = "/logistics-support/"
     weight = 2
 [[menu.desktop]]
-    identifier = "event-support"
+    identifier = "Event Support"
     name = "Event Support"
     url = "/event-support/"
     weight = 3
 [[menu.desktop]]
-    identifier = "structures"
+    identifier = "Structures"
     name = "Structures"
     url = "/structures/"
     weight = 4
 [[menu.desktop]]
-    identifier = "amenities"
+    identifier = "Amenities"
     name = "Amenities"
     url = "/amenities/"
     weight = 5
 [[menu.desktop]]
-    identifier = "about-us"
+    identifier = "About Us"
     name = "About Us"
     url = "/about-us/"
     weight = 6
 [[menu.desktop]]
-    identifier = "contact-us"
+    identifier = "Contact Us"
     name = "Contact Us"
     url = "/contact-us/"
     weight = 7
 [[menu.mobile]]
-    identifier = "emergency-response"
+    identifier = "Emergency Response"
     name = "Emergency Response"
     url = "/emergency-response/"
     weight = 1
 [[menu.mobile]]
-    identifier = "logistics-support"
+    identifier = "Logistics Support"
     name = "Logistics Support"
     url = "/logistics-support/"
     weight = 2
 [[menu.mobile]]
-    identifier = "event-support"
+    identifier = "Event Support"
     name = "Event Support"
     url = "/event-support/"
     weight = 3
 [[menu.mobile]]
-    identifier = "structures"
+    identifier = "Structures"
     name = "Structures"
     url = "/structures/"
     weight = 4
 [[menu.mobile]]
-    identifier = "amenities"
+    identifier = "Amenities"
     name = "Amenities"
     url = "/amenities/"
     weight = 5
 [[menu.mobile]]
-    identifier = "about-us"
+    identifier = "Who we are"
     name = "Who we are"
     url = "/about-us/"
     weight = 6
+[[menu.footer]]
+    identifier = "Emergency Response"
+    name = "Emergency Response"
+    weight = 1
+    [[menu.footer]]
+        identifier = "Facilities Support"
+        name = "Facilities Support"
+        url = "/facilities-support/"
+        parent = "Emergency Response"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Turn-key Camps"
+        name = "Turn-key Camps"
+        url = "/turnkey-camps/"
+        parent = "Emergency Response"
+        weight = 2
+    [[menu.footer]]
+        identifier = "Tactical Operations Center"
+        name = "Tactical Operations Center"
+        url = "/tactical-operations-centers/"
+        parent = "Emergency Response"
+        weight = 3
+    [[menu.footer]]
+        identifier = "Business Continuity"
+        name = "Business Continuity"
+        url = "/business-continuity/"
+        parent = "Emergency Response"
+        weight = 4
+    [[menu.footer]]
+        identifier = "LSA Support"
+        name = "LSA Support"
+        url = "/lsa-support/"
+        parent = "Emergency Response"
+        weight = 5
+    [[menu.footer]]
+        identifier = "Tents / Shelters"
+        name = "Tents / Shelters"
+        url = "/structures/"
+        parent = "Emergency Response"
+        weight = 6
+[[menu.footer]]
+    identifier = "Logistics Support"
+    name = "Logistics Support"
+    weight = 2
+    [[menu.footer]]
+        identifier = "Facilities Support 1"
+        name = "Facilities Support"
+        url = "/structures/"
+        parent = "Logistics Support"
+        weight = 1
+[[menu.footer]]
+    identifier = "event-support"
+    name = "Event Support"
+    url = "/event-support/"
+    weight = 3
+[[menu.footer]]
+    identifier = "structures"
+    name = "Structures"
+    url = "/structures/"
+    weight = 4
+[[menu.footer]]
+    identifier = "amenities"
+    name = "Amenities"
+    url = "/amenities/"
+    weight = 5
+[[menu.footer]]
+    identifier = "about-us"
+    name = "About Us"
+    url = "/about-us/"
+    weight = 6
+[[menu.footer]]
+    identifier = "contact-us"
+    name = "Contact Us"
+    url = "/contact-us/"
+    weight = 7
 [params.utilityImages]
     thankyouBackground = ""
 [params.tracking]
