@@ -12,5 +12,5 @@ fields:
   name: image
   label: image
 pages:
-- content/amenities/kitchens.md
 - content/amenities/hvac.md
+- content/amenities/kitchens.md
