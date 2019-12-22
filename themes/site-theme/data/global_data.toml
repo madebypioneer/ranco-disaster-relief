@@ -45,7 +45,7 @@ title = "Logistics Support"
 button_link = "/lsa-support/"
 button_text = "See Our Capabilities"
 image = "/v1576018357/Ranco%20Response/LSA_Support_yrld5f.jpg"
-text = "Our services range from full-service turnkey base camps and FOB support to the provision of any single component which can be used independently to augment existing facilities such as kitchens or barracks. We provide staffing, equipment, transportation, and support services to conduct self-contained turnkey Logistics Staging Area (LSA) operations to receive bulk resources of shelf stable meals, bottled water, bagged ice, and tarps or other accountable and/or expendable supplies from federal, state, or vendor resources. We will account for and distribute bulk resources to designated county points of distribution at the direction of the client."
+text = "Our services range from full-service turnkey base camps and FOB support to the provision of any single component which can be used independently to augment existing facilities such as kitchens or barracks. We provide staffing, equipment, transportation, and support services to conduct self-contained turnkey Logistics Staging Area (LSA) operations to receive bulk resources of shelf-stable meals, bottled water, bagged ice, and tarps or other accountable and/or expendable supplies from federal, state, or vendor resources. We will account for and distribute bulk resources to designated county points of distribution in the direction of the client."
 title = "LSA Support"
 [capabilities_bottom_sections.tactical_operation_centers]
 button_link = "/tactical-operations-centers/"
