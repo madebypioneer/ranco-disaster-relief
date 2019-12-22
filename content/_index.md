@@ -15,7 +15,7 @@ type = "page"
 url = "/"
 [capabilities_section]
 subtitle = "Excellence and expertise"
-text = "Ranco Response combines the strengths, skills, and expertise of more than 35 yearsof proven field logistics successfully executing both planned and unplanned events. Whether it is supporting first responders in the wake of a disaster or enhancing the training of the military or ensuring safe, clean facilities for special events, Ranco Response has been there."
+text = "Ranco Response combines the strengths, skills, and expertise of more than 35 years of proven field logistics successfully executing both planned and unplanned events. Whether it is supporting first responders in the wake of a disaster or enhancing the training of the military or ensuring safe, clean facilities for special events, Ranco Response has been there."
 title = "Executing Experience"
 vertical_title = "Capabilities"
 [capabilities_slider.first_slide]
