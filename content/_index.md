@@ -34,7 +34,7 @@ title = "Logistics Support"
 button_link = "/event-support/"
 button_text = "Learn More"
 image = "/v1576018357/Ranco%20Response/event-support-page_xfhgcy.jpg"
-text = "When little to no infrastructure is available to meet the demands of festival attendeesor other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population. All facilities and systems are assimilated into existing infrastructure and operated in accordance with all federal, state, and local guidelines with the safety of the attendees the number one priority."
+text = "When little to no infrastructure is available to meet the demands of festival attendees or other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population. All facilities and systems are assimilated into existing infrastructure and operated in accordance with all federal, state, and local guidelines with the safety of the attendees the number one priority."
 title = "Event Support"
 
 +++
