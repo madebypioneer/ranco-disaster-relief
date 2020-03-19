@@ -45,11 +45,99 @@
 }
 </style>
 
+<style>
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__close {
+  background: transparent;
+  border: 0;
+}
+
+@keyframes mmfadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes mmfadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+
+@keyframes mmslideIn {
+  from { transform: translateY(15%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes mmslideOut {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10%); }
+}
+
+.micromodal-slide {
+  display: none;
+}
+
+.micromodal-slide.is-open {
+  display: block;
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__overlay {
+  animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__container {
+  animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__overlay {
+  animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__container {
+  animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
+}
+
+.micromodal-slide .modal__container,
+.micromodal-slide .modal__overlay {
+  will-change: transform;
+}
+</style>
+
 <div id="header-functions" class="">
 {{ if eq .Site.Params.extraTools.floatingHeader true }}
 <div id="headerFloatingHeightFix" class="" ></div>
 {{ else }}
 {{ end }}
+
+<div class="flex flex-wrap bg-color-0D443A font-ibm text-white text-center">
+  <div class="flex flex-wrap items-center w-auto mx-auto pt-5 md:pt-3 pb-12 md:pb-6 px-5 lg:px-12 covid-notice">
+    <h6 class="w-auto font-ibm text-base leading-tight pb-5 md:pb-0 pr-2 opacity-75">Now offering COVID-19 Drive-Thru Testing Facilities</h6>
+    <a data-micromodal-trigger="covid-test-tents" class="w-full md:w-auto bg-color-092E27 hover:bg-color-11594C hover:cursor-pointer active:bg-color-092E27 focus:shadow-inner pb-1 px-4 md:rounded-lg">
+      <span class="font-titling text-2xs text-white tracking-widest uppercase">Learn More</span>
+    </a>
+  </div>
+</div>
+
+<div class="micromodal-slide" id="covid-test-tents" aria-hidden="true">
+  <div class="flex flex-wrap z-50 modal__overlay" tabindex="-1" data-micromodal-close>
+    <div class="flex flex-wrap w-5/6 lg:w-2/3 bg-white p-4 overflow-y-scroll modal__container">
+      <img class="w-11/12 md:w-1/2 mx-auto" src="https://res.cloudinary.com/pioneer-design/image/upload/v1584653850/Ranco%20Response/RR_-_RDTAC_PICTURE_ccwxfl.jpg">
+      <a data-micromodal-close aria-label="Close this dialog window" class="flex flex-wrap w-full">
+        <span data-micromodal-close aria-label="Close this dialog window" class="w-full lg:w-auto bg-color-092E27 hover:bg-color-11594C hover:cursor-pointer active:bg-color-092E27 focus:shadow-inner py-2 px-4 rounded-lg font-titling text-2xs text-white text-center tracking-widest uppercase hover:cursor-pointer">Close</span>
+      </a>
+    </div>
+  </div>
+</div>
 
 <section id="header" class="bg-transparent header-container">
   <div class="flex flex-wrap items-center py-4 md:py-8 px-6 md:px-12 lg:px-0 lg:pl-90p lg:pr-8 select-none header-box">

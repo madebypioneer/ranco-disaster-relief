@@ -72,7 +72,7 @@ button_text = "Email us Now"
 email = "vdemasi@rancoresponse.com"
 [logos]
 dark_logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1576018357/Ranco%20Response/RR.Horizontal.White_q983lk.svg"
-logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1576018357/Ranco%20Response/RR.Horizontal.White_q983lk.svg"
+logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto/v1576018357/Ranco%20Response/RR.Horizontal.White_q983lk.svg"
 mobile_logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1576018357/Ranco%20Response/RR.Horizontal.White_q983lk.svg"
 [meta]
 description = "Ranco Response combines the strengths, skills, and expertise of more than 35 years of proven field logistics successfully executing both planned and unplanned events."
