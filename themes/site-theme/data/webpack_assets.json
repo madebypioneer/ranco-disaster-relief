@@ -1,6 +1,9 @@
 {
   "app": {
     "js": "js/app.98715530c04cf107808b.js",
-    "css": "css/app.98715530c04cf107808b.css"
+    "css": [
+      "css/app.98715530c04cf107808b.css",
+      "css/inline.css"
+    ]
   }
 }

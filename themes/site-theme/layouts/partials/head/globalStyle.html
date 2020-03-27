@@ -1,1 +1,3 @@
-{{ $stylesheet := .Site.Data.webpack_assets.app }}{{ with $stylesheet.css }}<link href="{{ absURL (printf "%s%s" "/dist/" .) }}" rel="stylesheet">{{ end }}
+<style>
+{{ readFile "/themes/site-theme/static/dist/css/inline.css" | safeCSS }}
+</style>

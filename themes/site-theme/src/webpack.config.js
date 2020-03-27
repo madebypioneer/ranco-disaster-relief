@@ -50,6 +50,12 @@ module.exports = {
 				return getPath('css/[name].[chunkhash].css');
 			},
 			allChunks: true
+		}),
+		new ExtractTextPlugin({
+			filename: getPath => {
+				return getPath('css/inline.css');
+			},
+			allChunks: true
 		})
 	],
 };
