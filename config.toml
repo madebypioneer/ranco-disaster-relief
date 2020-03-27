@@ -110,9 +110,9 @@ enableRobotsTXT = true
         parent = "Emergency Response"
         weight = 6
     [[menu.footer]]
-        identifier = "COVID-19"
-        name = "COVID-19"
-        url = "/covid/"
+        identifier = "Wrap-around Services"
+        name = "Wrap-around Services"
+        url = "/wrap-around-services/"
         parent = "Emergency Response"
         weight = 7
 [[menu.footer]]
