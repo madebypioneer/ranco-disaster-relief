@@ -110,8 +110,8 @@ enableRobotsTXT = true
         parent = "Emergency Response"
         weight = 6
     [[menu.footer]]
-        identifier = "Wrap-around Services"
-        name = "Wrap-around Services"
+        identifier = "Wrap-Around Services"
+        name = "Wrap-Around Services"
         url = "/wrap-around-services/"
         parent = "Emergency Response"
         weight = 7
