@@ -109,6 +109,12 @@ enableRobotsTXT = true
         url = "/structures/"
         parent = "Emergency Response"
         weight = 6
+    [[menu.footer]]
+        identifier = "COVID-19"
+        name = "COVID-19"
+        url = "/covid/"
+        parent = "Emergency Response"
+        weight = 7
 [[menu.footer]]
     identifier = "Logistics Support"
     name = "Logistics Support"

@@ -83,6 +83,7 @@ module.exports = {
     },
     fontSize: {
       '0': '0rem',
+      '3xs': '.5rem',
       '2xs': '.625rem',
       xs: '0.75rem',
       sm: '0.875rem',
