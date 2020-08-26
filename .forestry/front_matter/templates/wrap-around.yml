@@ -5,15 +5,19 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: boolean
   name: has_hero_button
   label: has_hero_button
+  hidden: true
 - type: text
   name: hero_button_link
   label: hero_button_link
+  hidden: true
 - type: text
   name: hero_button_text
   label: hero_button_text
+  hidden: true
 - type: file
   name: hero_image
   label: hero_image
@@ -29,27 +33,33 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: textarea
   name: metaDescription
   label: metaDescription
 - type: text
   name: page-status
   label: page-status
+  hidden: true
 - type: text
   name: page_status
   label: page_status
+  hidden: true
 - type: file
   name: publish_image
   label: publish_image
+  hidden: true
 - type: text
   name: title
   label: title
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: field_group
   name: capabilities_section
   label: capabilities_section
