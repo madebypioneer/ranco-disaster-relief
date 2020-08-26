@@ -1,0 +1,158 @@
+---
+label: Wrap Around
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: has_hero_button
+  label: has_hero_button
+- type: text
+  name: hero_button_link
+  label: hero_button_link
+- type: text
+  name: hero_button_text
+  label: hero_button_text
+- type: file
+  name: hero_image
+  label: hero_image
+- type: textarea
+  name: hero_paragraph
+  label: hero_paragraph
+- type: text
+  name: hero_subtitle
+  label: hero_subtitle
+- type: text
+  name: hero_title
+  label: hero_title
+- type: text
+  name: layout
+  label: layout
+- type: textarea
+  name: metaDescription
+  label: metaDescription
+- type: text
+  name: page-status
+  label: page-status
+- type: text
+  name: page_status
+  label: page_status
+- type: file
+  name: publish_image
+  label: publish_image
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: url
+  label: url
+- type: field_group
+  name: capabilities_section
+  label: capabilities_section
+  fields:
+  - type: field_group
+    name: first_section
+    label: first_section
+    fields:
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: paragraph
+      label: paragraph
+    - type: file
+      name: img
+      label: img
+    - type: field_group
+      name: call_now_button
+      label: call_now_button
+      fields:
+      - type: text
+        name: text
+        label: text
+    - type: field_group
+      name: pdf_button
+      label: pdf_button
+      fields:
+      - type: text
+        name: text
+        label: text
+      - type: file
+        name: link
+        label: link
+  - type: field_group
+    name: second_section
+    label: second_section
+    fields:
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: paragraph
+      label: paragraph
+    - type: file
+      name: img
+      label: img
+    - type: field_group
+      name: call_now_button
+      label: call_now_button
+      fields:
+      - type: text
+        name: text
+        label: text
+    - type: field_group
+      name: pdf_button
+      label: pdf_button
+      fields:
+      - type: text
+        name: text
+        label: text
+      - type: file
+        name: link
+        label: link
+  - type: field_group
+    name: third_section
+    label: third_section
+    fields:
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: paragraph
+      label: paragraph
+    - type: file
+      name: img
+      label: img
+    - type: field_group
+      name: call_now_button
+      label: call_now_button
+      fields:
+      - type: text
+        name: text
+        label: text
+      - type: text
+        name: link
+        label: link
+    - type: field_group
+      name: pdf_button
+      label: pdf_button
+      fields:
+      - type: text
+        name: text
+        label: text
+      - type: file
+        name: link
+        label: link
