@@ -4,7 +4,7 @@ layout = "sysco-lp"
 metaDescription = "When time is of the essence, Ranco Response specializes in rapidly deploying fully-functioning facilities and resources to support natural disasters, civil disruptions, migrant populations, mass gatherings, or military operations."
 page-status = "sysco-lp"
 publish_image = "/v1576018358/Ranco%20Response/Tactical_Operation_Centers_i60hnc.jpg"
-title = "Contact Us"
+title = "Sysco Partnership"
 type = "page"
 url = "/sysco-partnership/"
 [contact_sections.email_us]
