@@ -86,6 +86,21 @@
                 <input name="sales-consultant-name" type="text" placeholder="e.g. Jane Joe" class="w-full text-sm border-2 border-color-CCCCCC hover:border-color-11594C focus:border-color-11594C mt-2 py-3 px-4 rounded-lg" required>
             </div>
             <div class="flex flex-wrap w-full lg:w-11/12 pb-8">
+                <label class="w-full">How did you hear about our services?*</label>
+                <select class="w-full text-sm border-2 border-color-CCCCCC hover:border-color-11594C focus:border-color-11594C mt-2 py-3 px-4 rounded-lg" name="how-did-you-hear-about-us" required>
+                    <option value="none" selected disabled hidden> 
+                        Select an Option 
+                    </option> 
+                    <option name="Sales Consultant">Sales Consultant</option>
+                    <option name="MenuMarketing Services Team">Menu/Marketing Services Team</option>
+                    <option name="Sysco Business Review">Sysco Business Review</option>
+                    <option name="Sysco iCare Webinar">Sysco iCare Webinar</option>
+                    <option name="Social Media">Social Media</option>
+                    <option name="Web Search">Web Search</option>
+                    <option name="Other">Other</option>
+                </select>
+            </div>
+            <div class="flex flex-wrap w-full lg:w-11/12 pb-8">
                 <label class="w-full">Message*</label>
                 <textarea name="message" placeholder="How can we help you?" class="w-full h-32 text-sm border-2 border-color-CCCCCC hover:border-color-11594C focus:border-color-11594C mt-2 py-3 px-4 rounded-lg" required></textarea>
             </div>
