@@ -15,7 +15,7 @@ title = "Reach Out"
 title = "Home Base"
 [top_section]
 subtitle = "Emergency Response"
-text = "When time is of the essence, Ranco Response specializes in rapidly deploying fully-functioning facilities and resources to support natural disasters, civil disruptions, migrant populations, mass gatherings, or military operations. When time is of the essence, Ranco Response specializes in rapidly deploying fully-functioning facilities and resources to support natural disasters, civil disruptions, migrant populations, mass gatherings, or military operations."
+text = "When time is of the essence, Ranco Response specializes in rapidly deploying fully-functioning facilities and resources to support natural disasters, civil disruptions, migrant populations, mass gatherings, or military operations."
 title = "Facilities Support"
 
 +++
