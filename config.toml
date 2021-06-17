@@ -1,348 +1,339 @@
 baseURL = "https://ranco-disaster.netlify.com/"
+enableRobotsTXT = true
 languageCode = "en-us"
 theme = "site-theme"
 title = "Ranco Response"
-enableRobotsTXT = true
-
+[mediaTypes."text/noExt"]
+suffixes = ""
 [[menu.desktop]]
-    identifier = "Emergency Response"
-    name = "Emergency Response"
-    url = "/emergency-response/"
-    weight = 1
+identifier = "Contact Us"
+name = "Contact Us"
+url = "/contact-us/"
+weight = 7
 [[menu.desktop]]
-    identifier = "Logistics Support"
-    name = "Logistics Support"
-    url = "/logistics-support/"
-    weight = 2
+identifier = "About Us"
+name = "About Us"
+url = "/about-us/"
+weight = 6
 [[menu.desktop]]
-    identifier = "Event Support"
-    name = "Event Support"
-    url = "/event-support/"
-    weight = 3
+identifier = "Amenities"
+name = "Amenities"
+url = "/amenities/"
+weight = 5
 [[menu.desktop]]
-    identifier = "Structures"
-    name = "Structures"
-    url = "/structures/"
-    weight = 4
+identifier = "Structures"
+name = "Structures"
+url = "/structures/"
+weight = 4
 [[menu.desktop]]
-    identifier = "Amenities"
-    name = "Amenities"
-    url = "/amenities/"
-    weight = 5
+identifier = "Event Support"
+name = "Event Support"
+url = "/event-support/"
+weight = 3
 [[menu.desktop]]
-    identifier = "About Us"
-    name = "About Us"
-    url = "/about-us/"
-    weight = 6
+identifier = "Logistics Support"
+name = "Logistics Support"
+url = "/logistics-support/"
+weight = 2
 [[menu.desktop]]
-    identifier = "Contact Us"
-    name = "Contact Us"
-    url = "/contact-us/"
-    weight = 7
-[[menu.mobile]]
-    identifier = "Emergency Response"
-    name = "Emergency Response"
-    url = "/emergency-response/"
-    weight = 1
-[[menu.mobile]]
-    identifier = "Logistics Support"
-    name = "Logistics Support"
-    url = "/logistics-support/"
-    weight = 2
-[[menu.mobile]]
-    identifier = "Event Support"
-    name = "Event Support"
-    url = "/event-support/"
-    weight = 3
-[[menu.mobile]]
-    identifier = "Structures"
-    name = "Structures"
-    url = "/structures/"
-    weight = 4
-[[menu.mobile]]
-    identifier = "Amenities"
-    name = "Amenities"
-    url = "/amenities/"
-    weight = 5
-[[menu.mobile]]
-    identifier = "Who we are"
-    name = "Who we are"
-    url = "/about-us/"
-    weight = 6
+identifier = "Emergency Response"
+name = "Emergency Response"
+url = "/emergency-response/"
+weight = 1
 [[menu.footer]]
-    identifier = "Emergency Response"
-    name = "Emergency Response"
-    weight = 1
-    [[menu.footer]]
-        identifier = "Facilities Support"
-        name = "Facilities Support"
-        url = "/facilities-support/"
-        parent = "Emergency Response"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Turn-key Camps"
-        name = "Turn-key Camps"
-        url = "/turnkey-camps/"
-        parent = "Emergency Response"
-        weight = 2
-    [[menu.footer]]
-        identifier = "Tactical Operations Center"
-        name = "Tactical Operations Center"
-        url = "/tactical-operations-centers/"
-        parent = "Emergency Response"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Business Continuity"
-        name = "Business Continuity"
-        url = "/business-continuity/"
-        parent = "Emergency Response"
-        weight = 4
-    [[menu.footer]]
-        identifier = "LSA Support"
-        name = "LSA Support"
-        url = "/lsa-support/"
-        parent = "Emergency Response"
-        weight = 5
-    [[menu.footer]]
-        identifier = "Tents / Shelters"
-        name = "Tents / Shelters"
-        url = "/structures/"
-        parent = "Emergency Response"
-        weight = 6
-    [[menu.footer]]
-        identifier = "Wrap-Around Services"
-        name = "Wrap-Around Services"
-        url = "/wrap-around-services/"
-        parent = "Emergency Response"
-        weight = 7
+identifier = "Showers"
+name = "Showers"
+parent = "Amenities"
+url = "/amenities/#showers"
+weight = 8
 [[menu.footer]]
-    identifier = "Logistics Support"
-    name = "Logistics Support"
-    weight = 2
-    [[menu.footer]]
-        identifier = "Facilities Support 1"
-        name = "Facilities Support"
-        url = "/facilities-support/"
-        parent = "Logistics Support"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Turn-key Camps 1"
-        name = "Turn-key Camps"
-        url = "/turnkey-camps/"
-        parent = "Logistics Support"
-        weight = 2
-    [[menu.footer]]
-        identifier = "Tactical Operations Center 1"
-        name = "Tactical Operations Center"
-        url = "/tactical-operations-centers/"
-        parent = "Logistics Support"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Business Continuity 1"
-        name = "Business Continuity"
-        url = "/business-continuity/"
-        parent = "Logistics Support"
-        weight = 4
-    [[menu.footer]]
-        identifier = "LSA Support 1"
-        name = "LSA Support"
-        url = "/lsa-support/"
-        parent = "Logistics Support"
-        weight = 5
-    [[menu.footer]]
-        identifier = "Tents / Shelters 1"
-        name = "Tents / Shelters"
-        url = "/structures/"
-        parent = "Logistics Support"
-        weight = 6
+identifier = "Sinks"
+name = "Sinks"
+parent = "Amenities"
+url = "/amenities/#sinks"
+weight = 7
 [[menu.footer]]
-    identifier = "Event Support"
-    name = "Event Support"
-    weight = 3
-    [[menu.footer]]
-        identifier = "Facilities Support 2"
-        name = "Facilities Support"
-        url = "/facilities-support/"
-        parent = "Event Support"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Turn-key Camps 2"
-        name = "Turn-key Camps"
-        url = "/turnkey-camps/"
-        parent = "Event Support"
-        weight = 2
-    [[menu.footer]]
-        identifier = "Tactical Operations Center 2"
-        name = "Tactical Operations Center"
-        url = "/tactical-operations-centers/"
-        parent = "Event Support"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Business Continuity 2"
-        name = "Business Continuity"
-        url = "/business-continuity/"
-        parent = "Event Support"
-        weight = 4
-    [[menu.footer]]
-        identifier = "LSA Support 2"
-        name = "LSA Support"
-        url = "/lsa-support/"
-        parent = "Event Support"
-        weight = 5
-    [[menu.footer]]
-        identifier = "Tents / Shelters 2"
-        name = "Tents / Shelters"
-        url = "/structures/"
-        parent = "Event Support"
-        weight = 6
+identifier = "Wrap-Around Services"
+name = "Wrap-Around Services"
+parent = "Emergency Response"
+url = "/wrap-around-services/"
+weight = 7
 [[menu.footer]]
-    identifier = "Structures"
-    name = "Structures"
-    url = "/structures/"
-    weight = 4
-    [[menu.footer]]
-        identifier = "Lunch & Break Areas"
-        name = "Lunch & Break Areas"
-        url = "/structures/#lunch-and-break-areas"
-        parent = "Structures"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Warehouse & Storage"
-        name = "Warehouse & Storage"
-        url = "/structures/#warehouse-storage"
-        parent = "Structures"
-        weight = 2
-    [[menu.footer]]
-        identifier = "Construction & Maintainance"
-        name = "Construction & Maintainance"
-        url = "/structures/#construction-covers"
-        parent = "Structures"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Extreme Weather"
-        name = "Extreme Weather"
-        url = "/structures/#extreme-weather"
-        parent = "Structures"
-        weight = 4
-    [[menu.footer]]
-        identifier = "Life Support Areas"
-        name = "Life Support Areas"
-        url = "/structures/#life-support-areas"
-        parent = "Structures"
-        weight = 5
-    [[menu.footer]]
-        identifier = "Event Spaces"
-        name = "Event Spaces"
-        url = "/structures/#event-br-spaces"
-        parent = "Structures"
-        weight = 6
+identifier = "Tents / Shelters 1"
+name = "Tents / Shelters"
+parent = "Logistics Support"
+url = "/structures/"
+weight = 6
 [[menu.footer]]
-    identifier = "Amenities"
-    name = "Amenities"
-    weight = 5
-    [[menu.footer]]
-        identifier = "Power"
-        name = "Power"
-        url = "/amenities/#power"
-        parent = "Amenities"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Lighting"
-        name = "Lighting"
-        url = "/amenities/#lighting"
-        parent = "Amenities"
-        weight = 2
-    [[menu.footer]]
-        identifier = "HVAC & Dehumidification"
-        name = "HVAC & Dehumidification"
-        url = "/amenities/#hvac"
-        parent = "Amenities"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Kitchens"
-        name = "Kitchens"
-        url = "/amenities/#kitchens"
-        parent = "Amenities"
-        weight = 4
-    [[menu.footer]]
-        identifier = "Laundry"
-        name = "Laundry"
-        url = "/amenities/#laundry"
-        parent = "Amenities"
-        weight = 5
-    [[menu.footer]]
-        identifier = "Toilets"
-        name = "Toilets"
-        url = "/amenities/#toilets"
-        parent = "Amenities"
-        weight = 6
-    [[menu.footer]]
-        identifier = "Sinks"
-        name = "Sinks"
-        url = "/amenities/#sinks"
-        parent = "Amenities"
-        weight = 7
-    [[menu.footer]]
-        identifier = "Showers"
-        name = "Showers"
-        url = "/amenities/#showers"
-        parent = "Amenities"
-        weight = 8
-[params.utilityImages]
-    thankyouBackground = ""
-[params.tracking]
-    cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
-[params.socialLinks]
-    facebook = ""
-    insta = ""
-    linkedin = ""
-    pinterest = ""
-[params.publishingSettings]
-    siteinProduction = true
-
-[mediaTypes]
-  [mediaTypes."text/noExt"]
-    suffixes = ""
-
-[sitemap]
-    filename = "sitepages.xml"
-
-[outputFormats]
-    [outputFormats.sitemapindex]
-        baseName = "sitemapindex"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.sitepages]
-        baseName = "sitepages"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.siteposts]
-        baseName = "siteposts"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.redirects]
-        baseName = "_redirects"
-        isPlainText = true
-        mediaType = "text/noExt"
-        path = "/"
-    [outputFormats.Algolia]
-        baseName = "algolia"
-        isPlainText = true
-        mediaType = "application/json"
-        notAlternative = true
-
+identifier = "Toilets"
+name = "Toilets"
+parent = "Amenities"
+url = "/amenities/#toilets"
+weight = 6
+[[menu.footer]]
+identifier = "Tents / Shelters"
+name = "Tents / Shelters"
+parent = "Emergency Response"
+url = "/structures/"
+weight = 6
+[[menu.footer]]
+identifier = "Event Spaces"
+name = "Event Spaces"
+parent = "Structures"
+url = "/structures/#event-br-spaces"
+weight = 6
+[[menu.footer]]
+identifier = "Tents / Shelters 2"
+name = "Tents / Shelters"
+parent = "Event Support"
+url = "/structures/"
+weight = 6
+[[menu.footer]]
+identifier = "Life Support Areas"
+name = "Life Support Areas"
+parent = "Structures"
+url = "/structures/#life-support-areas"
+weight = 5
+[[menu.footer]]
+identifier = "Laundry"
+name = "Laundry"
+parent = "Amenities"
+url = "/amenities/#laundry"
+weight = 5
+[[menu.footer]]
+identifier = "LSA Support"
+name = "LSA Support"
+parent = "Emergency Response"
+url = "/lsa-support/"
+weight = 5
+[[menu.footer]]
+identifier = "LSA Support 1"
+name = "LSA Support"
+parent = "Logistics Support"
+url = "/lsa-support/"
+weight = 5
+[[menu.footer]]
+identifier = "LSA Support 2"
+name = "LSA Support"
+parent = "Event Support"
+url = "/lsa-support/"
+weight = 5
+[[menu.footer]]
+identifier = "Kitchens"
+name = "Kitchens"
+parent = "Amenities"
+url = "/amenities/#kitchens"
+weight = 4
+[[menu.footer]]
+identifier = "Business Continuity"
+name = "Business Continuity"
+parent = "Emergency Response"
+url = "/business-continuity/"
+weight = 4
+[[menu.footer]]
+identifier = "Business Continuity 2"
+name = "Business Continuity"
+parent = "Event Support"
+url = "/business-continuity/"
+weight = 4
+[[menu.footer]]
+identifier = "Business Continuity 1"
+name = "Business Continuity"
+parent = "Logistics Support"
+url = "/business-continuity/"
+weight = 4
+[[menu.footer]]
+identifier = "Extreme Weather"
+name = "Extreme Weather"
+parent = "Structures"
+url = "/structures/#extreme-weather"
+weight = 4
+[[menu.footer]]
+identifier = "Tactical Operations Center 1"
+name = "Tactical Operations Center"
+parent = "Logistics Support"
+url = "/tactical-operations-centers/"
+weight = 3
+[[menu.footer]]
+identifier = "Tactical Operations Center"
+name = "Tactical Operations Center"
+parent = "Emergency Response"
+url = "/tactical-operations-centers/"
+weight = 3
+[[menu.footer]]
+identifier = "Construction & Maintainance"
+name = "Construction & Maintenance"
+parent = "Structures"
+url = "/structures/#construction-covers"
+weight = 3
+[[menu.footer]]
+identifier = "Tactical Operations Center 2"
+name = "Tactical Operations Center"
+parent = "Event Support"
+url = "/tactical-operations-centers/"
+weight = 3
+[[menu.footer]]
+identifier = "HVAC & Dehumidification"
+name = "HVAC & Dehumidification"
+parent = "Amenities"
+url = "/amenities/#hvac"
+weight = 3
+[[menu.footer]]
+identifier = "Turn-key Camps"
+name = "Turn-key Camps"
+parent = "Emergency Response"
+url = "/turnkey-camps/"
+weight = 2
+[[menu.footer]]
+identifier = "Turn-key Camps 1"
+name = "Turn-key Camps"
+parent = "Logistics Support"
+url = "/turnkey-camps/"
+weight = 2
+[[menu.footer]]
+identifier = "Turn-key Camps 2"
+name = "Turn-key Camps"
+parent = "Event Support"
+url = "/turnkey-camps/"
+weight = 2
+[[menu.footer]]
+identifier = "Lighting"
+name = "Lighting"
+parent = "Amenities"
+url = "/amenities/#lighting"
+weight = 2
+[[menu.footer]]
+identifier = "Warehouse & Storage"
+name = "Warehouse & Storage"
+parent = "Structures"
+url = "/structures/#warehouse-storage"
+weight = 2
+[[menu.footer]]
+identifier = "Power"
+name = "Power"
+parent = "Amenities"
+url = "/amenities/#power"
+weight = 1
+[[menu.footer]]
+identifier = "Facilities Support 1"
+name = "Facilities Support"
+parent = "Logistics Support"
+url = "/facilities-support/"
+weight = 1
+[[menu.footer]]
+identifier = "Facilities Support"
+name = "Facilities Support"
+parent = "Emergency Response"
+url = "/facilities-support/"
+weight = 1
+[[menu.footer]]
+identifier = "Lunch & Break Areas"
+name = "Lunch & Break Areas"
+parent = "Structures"
+url = "/structures/#lunch-and-break-areas"
+weight = 1
+[[menu.footer]]
+identifier = "Facilities Support 2"
+name = "Facilities Support"
+parent = "Event Support"
+url = "/facilities-support/"
+weight = 1
+[[menu.footer]]
+identifier = "Amenities"
+name = "Amenities"
+weight = 5
+[[menu.footer]]
+identifier = "Structures"
+name = "Structures"
+url = "/structures/"
+weight = 4
+[[menu.footer]]
+identifier = "Event Support"
+name = "Event Support"
+weight = 3
+[[menu.footer]]
+identifier = "Logistics Support"
+name = "Logistics Support"
+weight = 2
+[[menu.footer]]
+identifier = "Emergency Response"
+name = "Emergency Response"
+weight = 1
+[[menu.mobile]]
+identifier = "Who we are"
+name = "Who we are"
+url = "/about-us/"
+weight = 6
+[[menu.mobile]]
+identifier = "Amenities"
+name = "Amenities"
+url = "/amenities/"
+weight = 5
+[[menu.mobile]]
+identifier = "Structures"
+name = "Structures"
+url = "/structures/"
+weight = 4
+[[menu.mobile]]
+identifier = "Event Support"
+name = "Event Support"
+url = "/event-support/"
+weight = 3
+[[menu.mobile]]
+identifier = "Logistics Support"
+name = "Logistics Support"
+url = "/logistics-support/"
+weight = 2
+[[menu.mobile]]
+identifier = "Emergency Response"
+name = "Emergency Response"
+url = "/emergency-response/"
+weight = 1
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+[outputFormats.redirects]
+baseName = "_redirects"
+isPlainText = true
+mediaType = "text/noExt"
+path = "/"
+[outputFormats.sitemapindex]
+baseName = "sitemapindex"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputFormats.sitepages]
+baseName = "sitepages"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputFormats.siteposts]
+baseName = "siteposts"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
 [outputs]
-  home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS", "redirects", "Algolia"]
-
+home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS", "redirects", "Algolia"]
 [params.algolia]
-    appId = ""
-    searchKey = ""
-    indexName = ""
-
+appId = ""
+indexName = ""
+searchKey = ""
 [params.extraTools]
-    algoliaSearch = false
-    fontAwesome = true
-    floatingHeader = false
+algoliaSearch = false
+floatingHeader = false
+fontAwesome = true
+[params.publishingSettings]
+siteinProduction = true
+[params.socialLinks]
+facebook = ""
+insta = ""
+linkedin = ""
+pinterest = ""
+[params.tracking]
+cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
+[params.utilityImages]
+thankyouBackground = ""
+[sitemap]
+filename = "sitepages.xml"
