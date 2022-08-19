@@ -29,6 +29,12 @@ button_text = "See Our Capabilities"
 image = "/v1576018357/Ranco%20Response/event-support-page_xfhgcy.jpg"
 text = "When little to no infrastructure is available to meet the demands of festival attendees or other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population. All facilities and systems are assimilated into existing infrastructure and operated in accordance with all federal, state, and local guidelines with the safety of the attendees the number one priority."
 title = "Event Support"
+[capabilities_bottom_sections.diversity_inclusion]
+#button_link = "/event-support/more-info/"
+#button_text = "See Our Capabilities"
+image = "/v1660935675/Ranco%20Response/7d004de9ac6d1046e68704950286625d_dc8qvq.jpg"
+text = "At RANCO we benefit greatly from the skills, experience and commitment of the diverse range of people who work with us. We recognize that diversity is essential to us being able to best serve our customers and strive to ensure that no one is treated inappropriately or disrespectfully at our workplace. This is aligned with our values to act with integrity and care for our people. This policy sets out our approach to inclusion and diversity and anti-harassment, and the avoidance of discrimination at work."
+title = "Diversity & Inclusion"
 [capabilities_bottom_sections.facilities_support]
 button_link = "/facilities-support/"
 button_text = "See Our Capabilities"

@@ -8,6 +8,9 @@
 .event-support-bottom {
     background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Site.Data.global_data.capabilities_bottom_sections.event_support.image }}");
 }
+.diversity-inclusion-bottom {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Site.Data.global_data.capabilities_bottom_sections.diversity_inclusion.image }}");
+}
 </style>
 
 <section id="capabilities" class="relative flex flex-wrap py-24 bg-white md:px-12 lg:px-24">
@@ -63,6 +66,24 @@
     <div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-center mb-12 event-support-bottom">
         <div class="py-20 md:py-56"></div>
     </div>
+
+</div>
+
+<div id="diversity-inclusion" class="flex flex-wrap flex-col-reverse lg:flex-row-reverse items-center pb-8">
+
+<div class="w-full lg:w-2/5 text-black mr-auto lg:pl-8">
+    <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">{{ .Site.Data.global_data.capabilities_bottom_sections.subtitle }}</h6>
+    <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Site.Data.global_data.capabilities_bottom_sections.diversity_inclusion.title }}</h2>
+    <p class="font-ibm text-base leading-normal pb-12 opacity-75">{{ .Site.Data.global_data.capabilities_bottom_sections.diversity_inclusion.text }}</p>
+    {{ if .Site.Data.global_data.capabilities_bottom_sections.diversity_inclusion.button_link }}
+    <a class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 focus:shadow-inner pt-1 pb-2 px-4 rounded-lg" href="{{ .Site.Data.global_data.capabilities_bottom_sections.diversity_inclusion.button_link }}">
+        <span class="font-titling text-2xs text-white tracking-widest uppercase">{{ .Site.Data.global_data.capabilities_bottom_sections.diversity_inclusion.button_text }}</span>
+    </a>
+    {{ end }}
+</div>
+<div class="w-full lg:w-3/5 bg-cover bg-no-repeat bg-bottom mb-12 diversity-inclusion-bottom">
+    <div class="py-20 md:py-56"></div>
+</div>
 
 </div>
 
