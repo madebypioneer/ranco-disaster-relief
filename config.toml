@@ -16,9 +16,9 @@ name = "About Us"
 url = "/about-us/"
 weight = 6
 [[menu.desktop]]
-identifier = "Amenities"
-name = "Amenities"
-url = "/amenities/"
+identifier = "Assets"
+name = "Assets"
+url = "/assets/"
 weight = 5
 [[menu.desktop]]
 identifier = "Structures"
@@ -43,14 +43,14 @@ weight = 1
 [[menu.footer]]
 identifier = "Showers"
 name = "Showers"
-parent = "Amenities"
-url = "/amenities/#showers"
+parent = "Assets"
+url = "/assets/#showers"
 weight = 8
 [[menu.footer]]
 identifier = "Sinks"
 name = "Sinks"
-parent = "Amenities"
-url = "/amenities/#sinks"
+parent = "Assets"
+url = "/assets/#sinks"
 weight = 7
 [[menu.footer]]
 identifier = "Wrap-Around Services"
@@ -67,8 +67,8 @@ weight = 6
 [[menu.footer]]
 identifier = "Toilets"
 name = "Toilets"
-parent = "Amenities"
-url = "/amenities/#toilets"
+parent = "Assets"
+url = "/assets/#toilets"
 weight = 6
 [[menu.footer]]
 identifier = "Tents / Shelters"
@@ -97,8 +97,8 @@ weight = 5
 [[menu.footer]]
 identifier = "Laundry"
 name = "Laundry"
-parent = "Amenities"
-url = "/amenities/#laundry"
+parent = "Assets"
+url = "/assets/#laundry"
 weight = 5
 [[menu.footer]]
 identifier = "LSA Support"
@@ -121,8 +121,8 @@ weight = 5
 [[menu.footer]]
 identifier = "Kitchens"
 name = "Kitchens"
-parent = "Amenities"
-url = "/amenities/#kitchens"
+parent = "Assets"
+url = "/assets/#kitchens"
 weight = 4
 [[menu.footer]]
 identifier = "Business Continuity"
@@ -175,8 +175,8 @@ weight = 3
 [[menu.footer]]
 identifier = "HVAC & Dehumidification"
 name = "HVAC & Dehumidification"
-parent = "Amenities"
-url = "/amenities/#hvac"
+parent = "Assets"
+url = "/assets/#hvac"
 weight = 3
 [[menu.footer]]
 identifier = "Turn-key Camps"
@@ -199,8 +199,8 @@ weight = 2
 [[menu.footer]]
 identifier = "Lighting"
 name = "Lighting"
-parent = "Amenities"
-url = "/amenities/#lighting"
+parent = "Assets"
+url = "/assets/#lighting"
 weight = 2
 [[menu.footer]]
 identifier = "Warehouse & Storage"
@@ -211,8 +211,8 @@ weight = 2
 [[menu.footer]]
 identifier = "Power"
 name = "Power"
-parent = "Amenities"
-url = "/amenities/#power"
+parent = "Assets"
+url = "/assets/#power"
 weight = 1
 [[menu.footer]]
 identifier = "Facilities Support 1"
@@ -239,8 +239,8 @@ parent = "Event Support"
 url = "/facilities-support/"
 weight = 1
 [[menu.footer]]
-identifier = "Amenities"
-name = "Amenities"
+identifier = "Assets"
+name = "Assets"
 weight = 5
 [[menu.footer]]
 identifier = "Structures"
@@ -265,9 +265,9 @@ name = "Who we are"
 url = "/about-us/"
 weight = 6
 [[menu.mobile]]
-identifier = "Amenities"
-name = "Amenities"
-url = "/amenities/"
+identifier = "Assets"
+name = "Assets"
+url = "/assets/"
 weight = 5
 [[menu.mobile]]
 identifier = "Structures"

@@ -8,7 +8,7 @@
 #structures {
   background-image: url("/pageimg/hero-back.PNG");
 }
-#amenities {
+#assets {
   background-image: url("/pageimg/hero-back.PNG")
 }
 .structure-outer-box:hover > img {
@@ -24,15 +24,15 @@
     font-size: 18px !important;
     padding-top: 10px;
 }
-.amenities-outer-box:hover > img {
+.assets-outer-box:hover > img {
     height: 0px !important;
 }
-.amenities-outer-box:hover > .amenities-inner-box {
+.assets-outer-box:hover > .assets-inner-box {
     background-color: #0D443A !important;
     color: #fff !important;
     height: 100% !important;
 }
-.amenities-outer-box:hover > .amenities-inner-box p {
+.assets-outer-box:hover > .assets-inner-box p {
     font-size: 18px !important;
     padding-top: 10px;
 }
@@ -59,6 +59,6 @@
 
 {{ partial "page-globals/structures.html" . }}
 
-{{ partial "page-globals/amenities.html" . }}
+{{ partial "page-globals/assets.html" . }}
 
 {{ end }}
