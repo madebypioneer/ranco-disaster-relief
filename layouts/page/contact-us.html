@@ -48,16 +48,16 @@
         <h6 class="w-full font-titling text-2xs text-color-00B391 uppercase tracking-widest pb-3">{{ .Page.Params.top_section.subtitle }}</h6>
         <h2 class="font-titling text-2xl font-bold leading-none pb-3">{{ .Page.Params.top_section.title }}</h2>
         <p class="font-ibm text-base leading-normal pb-12">{{ .Page.Params.top_section.text }}</p>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
             <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">{{ .Page.Params.contact_sections.home_base.title }}</h6>
             <p class="font-ibm text-base leading-normal">{{ .Site.Data.global_data.address.street }}</p>
             <p class="font-ibm text-base leading-normal pb-12">{{ .Site.Data.global_data.address.city }}, {{ .Site.Data.global_data.address.state }}. {{ .Site.Data.global_data.address.zip }}</p>
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2 pb-12 md:pb-0">
             <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Email</h6>
             <a href="mailto:{{ .Site.Data.global_data.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">{{ .Site.Data.global_data.email.email }}</a>
         </div>
-        <div class="w-full">
+        <div class="w-full pb-12 md:pb-0">
             <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Phone</h6>
             <p class="font-ibm text-base leading-normal">Andy Tomlin (Sr. Logistics Manager/Business Development)</p>
             <div class="font-ibm text-base leading-normal"><a href="tel:+19124813615">1+ (912) 481-3615</a></div>
