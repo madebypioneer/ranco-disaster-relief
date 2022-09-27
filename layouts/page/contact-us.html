@@ -54,9 +54,15 @@
             <p class="font-ibm text-base leading-normal pb-12">{{ .Site.Data.global_data.address.city }}, {{ .Site.Data.global_data.address.state }}. {{ .Site.Data.global_data.address.zip }}</p>
         </div>
         <div class="w-1/2">
-            <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">{{ .Page.Params.contact_sections.email_us.title }}</h6>
-            <p class="font-ibm text-base leading-normal">{{ .Page.Params.contact_sections.email_us.before_number_text }} {{ .Site.Data.global_data.contact_numbers.phone }}</p>
-            <a href="mailto:{{ .Site.Data.global_data.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">{{ .Page.Params.contact_sections.email_us.button_text }}</a>
+            <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Email</h6>
+            <a href="mailto:{{ .Site.Data.global_data.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">{{ .Site.Data.global_data.email.email }}</a>
+        </div>
+        <div class="w-full">
+            <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Phone</h6>
+            <p class="font-ibm text-base leading-normal">Andy Tomlin (Sr. Logistics Manager/Business Development)</p>
+            <div class="font-ibm text-base leading-normal"><a href="tel:+19124813615">1+ (912) 481-3615</a></div>
+            <p class="font-ibm text-base leading-normal pt-6">Victor L. Demasi (Managing Director)</p>
+            <div class="font-ibm text-base leading-normal"><a href="tel:+12678857651">+1 (267) 885-7651</a></div>
         </div>
     </div>
     <div class="flex flex-wrap w-full lg:w-1/2">
