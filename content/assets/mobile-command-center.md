@@ -1,5 +1,5 @@
 +++
-image = "/v1576018357/Ranco%20Response/other-amenities_h59alx.jpg"
+image = "/v1585313064/Ranco%20Response/covid-response-trailer_pem1vh.jpg"
 name = "Mobile Command Center"
 
 +++
