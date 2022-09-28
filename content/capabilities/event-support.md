@@ -1,13 +1,13 @@
 +++
-date = "2019-04-24T05:00:00+00:00"
-url = "/event-support/more-info/"
-title = "Event Support"
+date = 2019-04-24T05:00:00Z
+metaDescription = "When little to no infrastructure is available to meet the demands of festival attendees or other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population."
 page-status = "event-support-subpage"
 publish_image = "/v1576018357/Ranco%20Response/event-support-page_xfhgcy.jpg"
-metaDescription = "When little to no infrastructure is available to meet the demands of festival attendees or other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population."
+title = "Event Support"
 top_image = "/v1576018357/Ranco%20Response/event-support-page_xfhgcy.jpg"
-+++
+url = "/event-support/more-info/"
 
++++
 When little to no infrastructure is available to meet the demands of festival attendees or other special events, Ranco Response provides the temporary facilities to ensure the health and comfort of the visiting population. All facilities and systems are assimilated into existing infrastructure and operated in accordance with all federal, state, and local guidelines with the safety of the attendees the number one priority.
 
 Ranco Response has a long-standing history of providing innovative solutions to the special events industry. Our evolutionary, safe, and sustainable services and products continue to enhance the experience of festival-goers across the country and enable promoters to direct their focus elsewhere. 
@@ -57,4 +57,4 @@ OUR PRODUCTS:
 - Containerized Kitchen Units
 - Modular Office Units — up to 10 units per truck (collapsible)
 - Modular Housing Units — up to 10 units per truck (collapsible)
-- Multi-use hard wall units — office, storage, etc. 
+- Multi-use hard wall units — office, storage, etc.

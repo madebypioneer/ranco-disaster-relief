@@ -162,21 +162,21 @@ fields:
     name: diversity_inclusion
     label: diversity & inclusion
     fields:
-     - type: text
-       name: title
-       label: title
-     - type: textarea
-       name: text
-       label: text
-     - type: text
-       name: button_text
-       label: button text
-     - type: text
-       name: button_link
-       label: button link
-     - type: file
-       name: image
-       label: image
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: button_text
+      label: button text
+    - type: text
+      name: button_link
+      label: button link
+    - type: file
+      name: image
+      label: image
   - type: field_group
     name: facilities_support
     label: facilities support
