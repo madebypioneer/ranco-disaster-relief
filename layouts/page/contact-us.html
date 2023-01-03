@@ -36,6 +36,52 @@
     font-size: 18px !important;
     padding-top: 10px;
 }
+.cog-label {
+    font-family: 'ibm-plex-sans-condensed', sans-serif !important;
+    font-size: 18px !important;
+}
+.el-input__inner {
+    font-family: 'ibm-plex-sans-condensed', sans-serif !important;
+    font-size: .875rem!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    padding-top: 0.75rem!important;
+    padding-bottom: 0.75rem!important;
+    margin-top: 0.5rem!important;
+    border-width: 2px!important;
+    border-radius: 0.5rem!important;
+    border-color: #ccc!important;
+}
+.el-textarea__inner {
+    font-family: 'ibm-plex-sans-condensed', sans-serif !important;
+    font-size: .875rem!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    padding-top: 0.75rem!important;
+    padding-bottom: 0.75rem!important;
+    margin-top: 0.5rem!important;
+    border-width: 2px!important;
+    border-radius: 0.5rem!important;
+    border-color: #ccc!important;
+    height: 8rem!important;
+}
+.cog-button {
+    font-family: 'ibm-plex-sans-condensed', sans-serif !important;
+    font-size: 20px!important;
+    background-color: #11594c!important;
+    color: #fff!important;
+    padding-bottom: 0.5rem!important;
+    padding-top: 0.25rem!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    margin-left: auto!important;
+    border-radius: 0.5rem!important;
+    transition: 0.25s;
+}
+.cog-button:hover {
+    background-color: #092e27!important;
+    transition: 0.25s;
+}
 </style>
 
 <section id="structures" class="relative flex flex-wrap py-24 bg-white">
@@ -55,8 +101,7 @@
         </div>
         <div class="w-full md:w-1/2 pb-12 md:pb-0">
             <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Email</h6>
-            <a href="mailto:Atomlin@rancoresponse.com" class="font-ibm text-base text-color-00B391 leading-normal pb-12">Atomlin@rancoresponse.com</a>
-            <a href="mailto:{{ .Site.Data.global_data.email.email }}" class="font-ibm text-base text-color-00B391 leading-normal pb-12">{{ .Site.Data.global_data.email.email }}</a>
+            <a href="mailto:sales@rancoresponse.com" class="font-ibm text-base text-color-00B391 leading-normal pb-12">sales@rancoresponse.com</a>
         </div>
         <div class="w-full pb-12 md:pb-0">
             <h6 class="w-full font-titling text-xl uppercase tracking-widest pb-3">Phone</h6>
@@ -66,8 +111,9 @@
             <div class="font-ibm text-base leading-normal"><a href="tel:+12678857651">+1 (267) 885-7651</a></div>
         </div>
     </div>
-    <div class="flex flex-wrap w-full lg:w-1/2">
-        <form class="flex flex-wrap font-ibm" action="/thank-you/" netlify-honeypot="field-for-coolguys" name="Website Contact" method="POST" netlify>
+    <div class="w-full lg:w-1/2">
+        <script src="https://www.cognitoforms.com/f/seamless.js" data-key="IG83lPQs7UKU2FDeP--HlA" data-form="54"></script>
+        <!-- <form class="flex flex-wrap font-ibm" action="/thank-you/" netlify-honeypot="field-for-coolguys" name="Website Contact" method="POST" netlify>
             <input type="hidden" name="subject" value="New Submission from Website" />
             <div class="flex flex-wrap w-full lg:w-5/12 mr-auto pb-8">
                 <label class="w-full">Name*</label>
@@ -93,7 +139,7 @@
             <div class="flex flex-wrap w-full lg:w-11/12">
                 <input type="submit" value="Submit" class="bg-color-11594C hover:bg-color-0D443A active:bg-color-092E27 text-white hover:cursor-pointer focus:shadow-inner pt-1 pb-2 px-4 rounded-lg ml-auto">
             </div>
-        </form>
+        </form> -->
     </div>
 
 </div>
